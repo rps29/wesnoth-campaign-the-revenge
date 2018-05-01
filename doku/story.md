@@ -29,7 +29,7 @@ Wenn man bis zur 7. Runde nicht gestorben ist, kommt eine Kill-Sequenz, wo alle 
 
 **Story:** Die beiden Troll-Geister werden zu untoten Trollen, sobald sie sich im Sonnenlicht befinden.
 
-### 3. Weg zum Buch
+### 3. Das Untotsein
 
 **Story:** Der Totenbeschwörer möchte den untoten Trollen als Dank beibringen, wie sie Untote beschwören können. Dazu benötigt er sein Buch.
 
