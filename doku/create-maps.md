@@ -47,4 +47,7 @@ Expand/shrink: Punkt oben mitte setzen
 
 Startpunkte in Szenario 3:
 Spieler 1 (Tedder) = 29,6 (Nördlicher Rand, "vom Höhlenausgang aus")
-Spieler 2 (Elf) = 7,43 (Elfenburg)
+Spieler 2 (Elf) = 9,41 (Elfenburg)
+
+## Szenario 4 (04_Elves_War.map)
+
