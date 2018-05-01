@@ -39,6 +39,7 @@ Spieler 3 (geist) = 20,23 (auf der kaputten Holzbrücke im Eingangsbereich)
 Overlay unpassierbar auf x,y 19,27 und 20,26 und 21,26
 
 ## Szenario 3 (undead_life.map)
+
 Neue Breite = 50, neue Höhe = 55
 Expand/shrink: Punkt links unten setzen
 
@@ -50,4 +51,13 @@ Spieler 1 (Tedder) = 29,6 (Nördlicher Rand, "vom Höhlenausgang aus")
 Spieler 2 (Elf) = 9,41 (Elfenburg)
 
 ## Szenario 4 (04_Elves_War.map)
+
+Breite 32, Höhe 72
+Expand/shrink: Punkt links oben
+
+Breite 32, Höhe 32
+Expand/shrink: Punkt links unten
+
+Spieler 1 (Tedder): 8,7 (Sumpfburg, Burgfried)
+Spieler 2 (Elfenkönig): 9,26 (Elfenburg, Burgfried)
 

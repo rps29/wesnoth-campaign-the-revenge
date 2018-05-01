@@ -52,7 +52,7 @@ Falls Wiesenlager erreicht, Erzähler:
 Das Wiesenlager ist erreicht, aber wie soll es weitergehen? Sollen die Trollgeister wirklich weiter an Nekromants Seite bleiben oder lieber zu den Elfen wechseln?
 
 Options (Nekromant - Elfen)
-Diese Entscheidung gilt dann auch für den Rest der Kampagne. 
+Diese Entscheidung gilt dann auch für den Rest der Kampagne.
 
 
 # 6. Zurückeroberung der Heimat
