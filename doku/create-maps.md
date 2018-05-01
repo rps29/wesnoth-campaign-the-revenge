@@ -13,11 +13,16 @@ Das Kreuzchen „Rahmengelände kopieren“ soll nicht gesetzt werden.
 
 ## Szenario 1 (the_beginning.map)
 
-Neue Breite = ?, neue Höhe = ?
-Expand/shrink: Punkt rechts oben setzen
+Neue Breite = 30, neue Höhe = 65
+Expand/shrink: Punkt rechts unten setzen
+
+Neue Breite = 30, neue Höhe = 35
+Expand/shrink: Punkt oben mitte setzen
 
 Startpunkte in Szenario 1:
-[...]
+Spieler 1 (Tedder) = 23,4
+Spieler 2 (General Disgustus) = 26,31
+Spieler 3 (?) = 22,35
 
 ## Szenario 2 (resurrection.map)
 
@@ -31,5 +36,4 @@ Startpunkte in Szenario 2:
 Spieler 1 (Tedder) = 28,8 (am Höhlenfluss)
 Spieler 2 (Zauberer) = 20,2 (Höhle im Norden) 
 Spieler 3 (geist) = 20,23 (auf der kaputten Holzbrücke im Eingangsbereich)
-
-
+Overlay unpassierbar auf x,y 19,27 und 20,26 und 21,26
