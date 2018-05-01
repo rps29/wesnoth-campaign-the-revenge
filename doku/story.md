@@ -1,11 +1,11 @@
-# Battle For Wesnoth 1.12
+** Battle For Wesnoth 1.12, Kampagne "The Revenge" **
 
-## Kampagne: The Revenge
+# 1. The Beginning
 
-
-### 1. Der Anfang
-
-**Story:** Trolle, die ein friedliches Bergleben führen. Übermacht von Menschen überschwemmt das Gebirge / die Heimat der Trolle und tötet alle.
+Trolle, die ein friedliches Bergleben führen. 
+Übermacht von Menschen überschwemmt das Gebirge / die Heimat der Trolle und tötet alle.
+Trolle sind nicht doof, eher im Gegenteil.
+Menschen sind dumm und böse, halten aber die Trolle für doof, was aber ihre eigene Doofheit nur unterstreicht. 
 
 **Ziel:** überlebe bis zur 7. Runde
 
@@ -13,50 +13,60 @@ Wenn man bis zur 7. Runde nicht gestorben ist, kommt eine Kill-Sequenz, wo alle 
 
 *Defeat oder Victory geht beides weiter!*
 
-### 2. Resurrection
+# 2. Resurrection
 
-**Story:** 2 Trolle (Haupt- & Nebenperson) wachen als Geister in einer Höhle auf. Sie verstehen nicht, was los ist, ob sie nun tot oder lebendig sind.
+Tedder und Ugoki wachen als Geister in einer Höhle auf.
+Nekromant wird aufgefunden, dieser wird zum dritten Teil der eigenen kleinen Truppe.
 
-**Ziel:** (in 2-3 Zügen) zu einem weiteren Ort laufen.
+**Ziel:** Töte den Wächtergeist zu dritt
 
-**Story:** Dort findet man auf einem Friedhof einen Totenbeschwörer auf. Er sagt, wenn man den Geist tötet, welcher ihn foltert und dafür sorgt, dass er nicht fliehen kann, kann man aus der Höhle entkommen. Der Totenbeschwörer allein ist nicht stark genug, um den bösen Geist zu besiegen, da er sein Buch nicht in Besitz hat.
+Schleier + Nebel werden von der Map entfernt. Hinter einem Höhlenflüsschen erscheint der Ausgang. 
+Die beiden Troll-Geister werden zu untoten Trollen, sobald sie sich im Sonnenlicht befinden.
 
-**Ziel:** Töte den Geist zu dritt (der Totenbeschwörer wird zu einer 3. Einheit).
+# 3. Undead Life
 
-**Story:** Schleier + Nebel werden von der Map entfernt. Hinter einem Höhlenflüsschen erscheint der Ausgang. 
+**Ziel** Geleite Nekromant zu seiner Sumpfburg
+Dabei greifen einzelne Elfen das Trio an.
+Damit wird klar, dass die Elfen Feinde sind.
 
-**Ziel:** Laufe zum Ausgang
+# 4. Der Elfenkrieg
 
-**Story:** Die beiden Troll-Geister werden zu untoten Trollen, sobald sie sich im Sonnenlicht befinden.
+Normale Schlacht mit einfachen Untoten-Einheiten, Startpunkt Sumpfburg
 
-### 3. Das Untotsein
+**Ziel:** Elfenkönig besiegen, eigene Einheiten härten
 
-**Story:** Der Totenbeschwörer möchte den untoten Trollen als Dank beibringen, wie sie Untote beschwören können. Dazu benötigt er sein Buch.
+Aus den Kommentaren von Nekromant (unnötig sadistisch) und den Elfen (relativ vernünftig) kommen den beiden Trollen erste Zweifel, ob sie Freund und Feind wirklich richtig gewählt haben.
 
-**„Filmsequenz“:** Der Totenbeschwörer bekommt sein Buch. (er läuft zu seinem Zuhause / zu seiner Burg).
+# 5. Die Entscheidung
 
-**Story:** Jetzt erklärt er den beiden Hauptpersonen, wie man Untote beschwört. Danach kommen Elfen und möchten den Totenbeschwörer und die untoten Trolle töten, da sie alles untote hassen.
+Die Elfen aus der Waldfestung greifen wieder an. Diesmal mit starken Einheiten, (für Anfänger) unbesiegbar
 
-**Ziel:** Besiege, um das Beschwören der Untoten zu üben, die Elfen.
+**Ziel:** Bringe Tedder und Ugoki ins Wiesenlager. Alternativ: Besiege den Elfenkönig
 
-### 4. Heimreise
+Weitere sadistische, hinterhältige Kommentare von Nekromant, Vernünftiges vom Elfenkönig
 
-**Story:** Die Elfen aus der nördlichen Waldfestung greifen an. Anfangs mit schwachen Einheiten.
+Falls Elfenkönig tot, last breath: 
+Ihr Narren habt Euch falsch entschieden! Der nekrophile Nekromant wird Euch bei erster Gelegenheit verraten! Kämpft lieber mit den Elfen gegen den verfluchten Totenbeschwörer!
 
-**Ziel:** Besiege den Elfen.
+Falls Wiesenlager erreicht, Erzähler:
+Das Wiesenlager ist erreicht, aber wie soll es weitergehen? Sollen die Trollgeister wirklich weiter an Nekromants Seite bleiben oder lieber zu den Elfen wechseln?
 
-**Story:** Der Elf bekommt Verstärkung, zu viel, um ihn zu besiegen.
+Options (Nekromant - Elfen)
+Diese Entscheidung gilt dann auch für den Rest der Kampagne. 
 
-**Ziel:** Rette möglichst viele Einheiten und fliehe nach Osten in Richtung ehemaliger Troll-Berg-Heimat.
 
-### 5. Zurückeroberung der Heimat
+# 6. Zurückeroberung der Heimat
 
-**Story:** Du beginnst mit einem Lager im Südwesten und willst in deine Heimat.
+Startpunkt Wiesenlager.
+Die Trollburg ist von einem Menschengeneral, einem Statthalter von Disgustus besetzt.
+Schlacht von Trollgeistern gegen Menschen
 
-**Ziel:** Töte alle Feinde in den Bergen und besetze die Burg.
+**Ziel:** Töte den General
 
-### 6. Annihilation
+# 7. The Revenge (Finale)
 
-**Ziel:** Lösche General Disgustus aus, der dich im ersten Szenario getötet hat.
+**Ziel:** Töte General Disgustus
 
-### ENDE
+Freunde: Nekromant oder Elfen
+
+Feinde: Menschen, Wächtergeist, Elfen oder Nekromant
