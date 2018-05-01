@@ -39,12 +39,12 @@ Spieler 3 (geist) = 20,23 (auf der kaputten Holzbrücke im Eingangsbereich)
 Overlay unpassierbar auf x,y 19,27 und 20,26 und 21,26
 
 ## Szenario 3 (undead_life.map)
-Neue Breite = 50, neue Höhe = 50
-Expand/shrink: Punkt rechts unten setzen
+Neue Breite = 50, neue Höhe = 55
+Expand/shrink: Punkt links unten setzen
 
-Neue Breite = 50, neue Höhe = 42
+Neue Breite = 50, neue Höhe = 47
 Expand/shrink: Punkt oben mitte setzen
 
 Startpunkte in Szenario 3:
-Spieler 1 (Tedder) = 29,2 (Nördlicher Rand, "vom Höhlenausgang aus")
-Spieler 2 (Elf) = 7,38 (Elfenburg)
+Spieler 1 (Tedder) = 29,6 (Nördlicher Rand, "vom Höhlenausgang aus")
+Spieler 2 (Elf) = 7,43 (Elfenburg)
