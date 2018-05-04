@@ -43,38 +43,29 @@ Elfenreiter kommen von südosten. Tedder läuft alleine, um sie zu empfangen. Un
 
 Entscheidung > Elfen oder Totenbeschwörer als Freund?
 
-###### Wenn ELFEN:
+## Wenn mit Nekromant gegen die Elfen:
 
-- Start links unten, mit Landolin
+Tedder zurück in den Burgfried der Sumpffestung
 
-- **Ziel:** Besiege Landolin
+**Ziel:** Besiege Landolin
 
-=> last breath von Landolin: Mein ... wird folgen und euch zerstören
+Last breath von Landolin: Mein ... wird folgen und euch zerstören
 
+## Wenn mit den Elfen gegen Nekromant:
 
-###### Wenn NEKROMANT:
+Tedder und Ugoki in die Waldburg.
+Nekromant bekommt sein eigenes Team ab diesem Szenario, und ist nicht mehr eine unserer eigenen Einheiten
 
-- Start in Sumpffestung, mit Nekromant (Nekromant bekommt sein eigenes Team ab diesem Szenario, und ist nichtmehr eine unserer eigenen Einheiten)
+**Ziel:** Besiege Nekromant
 
-- **Ziel:** Besiege Nekromant
+Last breath von Nekromant: Ihr werdet mich nie besiegen, Ihr Pfuscher der Totenbeschwörung! Ich bin und bleibe der Meister und schicke Euch in die Hölle!
+Animation, wie Nekromant nach nordwesten aus der Map verschwindet
 
-=> last breath von Nekromant: Ihr werdet mich nicht besiegen! -> Animation, wie Nekromant nach nordwesten aus der Map verschwindet
+## Wenn erstes Ziel (Nekromant oder Landolin besiegen)...
 
-###### Wenn erstes Ziel (Nekromant oder Landolin besiegen)...
+Mensch erscheint im Wiesenlager im Nordosten (Nur Reiter, z.B. "Paladin" König, Ritter als Rekruten)
 
-- Mensch erscheint im Wiesenlager im Nordosten (Nur Reiter, z.B. "Paladin" König, Ritter als Rekruten)
-
-- **Ziel:** Wiesenlager übernehmen (und Tedder ins Wiesenlager bewegen)
-
-Falls Elfenkönig tot, last breath: 
-Ihr Narren habt Euch falsch entschieden! Der nekrophile Nekromant wird Euch bei erster Gelegenheit verraten! Kämpft lieber mit den Elfen gegen den verfluchten Totenbeschwörer!
-
-Falls Wiesenlager erreicht, Erzähler:
-Das Wiesenlager ist erreicht, aber wie soll es weitergehen? Sollen die Trollgeister wirklich weiter an Nekromants Seite bleiben oder lieber zu den Elfen wechseln?
-
-Options (Nekromant - Elfen)
-Diese Entscheidung gilt dann auch für den Rest der Kampagne.
-
+**Ziel:** Wiesenlager übernehmen (und Tedder ins Wiesenlager bewegen)
 
 # 6. Rückeroberung
 
