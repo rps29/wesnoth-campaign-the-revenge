@@ -66,15 +66,6 @@ Entscheidung > Elfen oder Totenbeschwörer als Freund?
 
 - **Ziel:** Wiesenlager übernehmen (und Tedder ins Wiesenlager bewegen)
 
-
-
-
-Die Elfen aus der Waldfestung greifen wieder an. Diesmal mit starken Einheiten, (für Anfänger) unbesiegbar
-
-**Ziel:** Bringe Tedder und Ugoki ins Wiesenlager. Alternativ: Besiege den Elfenkönig
-
-Weitere sadistische, hinterhältige Kommentare von Nekromant, Vernünftiges vom Elfenkönig
-
 Falls Elfenkönig tot, last breath: 
 Ihr Narren habt Euch falsch entschieden! Der nekrophile Nekromant wird Euch bei erster Gelegenheit verraten! Kämpft lieber mit den Elfen gegen den verfluchten Totenbeschwörer!
 
@@ -85,7 +76,7 @@ Options (Nekromant - Elfen)
 Diese Entscheidung gilt dann auch für den Rest der Kampagne.
 
 
-# 6. Zurückeroberung der Heimat
+# 6. Rückeroberung
 
 Startpunkt Wiesenlager.
 Die Trollburg ist von einem Menschengeneral, einem Statthalter von Disgustus besetzt.
