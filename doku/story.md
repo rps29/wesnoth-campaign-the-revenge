@@ -37,7 +37,7 @@ Normale Schlacht mit einfachen Untoten-Einheiten, Startpunkt Sumpfburg
 
 Aus den Kommentaren von Nekromant (unnötig sadistisch) und den Elfen (relativ vernünftig) kommen den beiden Trollen erste Zweifel, ob sie Freund und Feind wirklich richtig gewählt haben.
 
-# 5. Die Entscheidung
+# 5. Tag der Entscheidung
 
 Die Elfen aus der Waldfestung greifen wieder an. Diesmal mit starken Einheiten, (für Anfänger) unbesiegbar
 

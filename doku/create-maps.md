@@ -60,7 +60,7 @@ Expand/shrink: Punkt links unten
 Spieler 1 (Tedder): 8,7 (Sumpfburg, Burgfried)
 Spieler 2 (Elfenkönig): 9,26 (Elfenburg, Burgfried)
 
-## Szenario 5 (05_judgement.map)
+## Szenario 5 (05_judgement_day.map)
 Breite: 50, Höhe: 70
 Expand/shrink: Punkt links oben
 
