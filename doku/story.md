@@ -39,6 +39,36 @@ Aus den Kommentaren von Nekromant (unnötig sadistisch) und den Elfen (relativ v
 
 # 5. Tag der Entscheidung
 
+Elfenreiter kommen von südosten. Tedder läuft alleine, um sie zu empfangen. Unterhaltung...
+
+Entscheidung > Elfen oder Totenbeschwörer als Freund?
+
+###### Wenn ELFEN:
+
+- Start links unten, mit Landolin
+
+- **Ziel:** Besiege Landolin
+
+=> last breath von Landolin: Mein ... wird folgen und euch zerstören
+
+
+###### Wenn NEKROMANT:
+
+- Start in Sumpffestung, mit Nekromant (Nekromant bekommt sein eigenes Team ab diesem Szenario, und ist nichtmehr eine unserer eigenen Einheiten)
+
+- **Ziel:** Besiege Nekromant
+
+=> last breath von Nekromant: Ihr werdet mich nicht besiegen! -> Animation, wie Nekromant nach nordwesten aus der Map verschwindet
+
+###### Wenn erstes Ziel (Nekromant oder Landolin besiegen)...
+
+- Mensch erscheint im Wiesenlager im Nordosten (Nur Reiter, z.B. "Paladin" König, Ritter als Rekruten)
+
+- **Ziel:** Wiesenlager übernehmen (und Tedder ins Wiesenlager bewegen)
+
+
+
+
 Die Elfen aus der Waldfestung greifen wieder an. Diesmal mit starken Einheiten, (für Anfänger) unbesiegbar
 
 **Ziel:** Bringe Tedder und Ugoki ins Wiesenlager. Alternativ: Besiege den Elfenkönig
