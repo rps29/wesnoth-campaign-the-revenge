@@ -39,31 +39,32 @@ Aus den Kommentaren von Nekromant (unnötig sadistisch) und den Elfen (relativ v
 
 # 5. Tag der Entscheidung
 
-Elfenreiter kommen von südosten. Tedder läuft alleine, um sie zu empfangen. Unterhaltung...
+Nekromant bekommt sein eigenes Team ab diesem Szenario, und ist nicht mehr eine unserer eigenen Einheiten
 
-Entscheidung > Elfen oder Totenbeschwörer als Freund?
+Orkischer Wolfsreiter kommt von südosten. Tedder läuft alleine, um ihn zu empfangen. Unterhaltung...
 
-## Wenn mit Nekromant gegen die Elfen:
+Entscheidung > Orks oder Totenbeschwörer als Freund?
+
+## Wenn mit Nekromant gegen die Orks:
 
 Tedder zurück in den Burgfried der Sumpffestung
 
-**Ziel:** Besiege Landolin
+**Ziel:** Besiege Ragschnarr
 
-Last breath von Landolin: Mein ... wird folgen und euch zerstören
+Last breath von Ragschnarr: Mein ... wird folgen und euch zerstören
 
-## Wenn mit den Elfen gegen Nekromant:
+## Wenn mit den Orks gegen Nekromant:
 
-Tedder und Ugoki in die Waldburg.
-Nekromant bekommt sein eigenes Team ab diesem Szenario, und ist nicht mehr eine unserer eigenen Einheiten
+Tedder und Ugoki in das Wiesenlager von Orks.
 
 **Ziel:** Besiege Nekromant
 
 Last breath von Nekromant: Ihr werdet mich nie besiegen, Ihr Pfuscher der Totenbeschwörung! Ich bin und bleibe der Meister und schicke Euch in die Hölle!
 Animation, wie Nekromant nach nordwesten aus der Map verschwindet
 
-## Wenn erstes Ziel (Nekromant oder Landolin besiegen)...
+## Wenn erstes Ziel (Nekromant oder Ork besiegen)...
 
-Mensch erscheint im Wiesenlager im Nordosten (Nur Reiter, z.B. "Paladin" König, Ritter als Rekruten)
+Mensch erscheint im Nordosten (Nur Reiter, z.B. "Paladin" König, Ritter als Rekruten)
 
 **Ziel:** Wiesenlager übernehmen (und Tedder ins Wiesenlager bewegen)
 

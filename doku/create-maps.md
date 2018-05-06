@@ -43,7 +43,7 @@ Overlay unpassierbar auf x,y 19,27 und 20,26 und 21,26
 Neue Breite = 40, neue Höhe = 55
 Expand/shrink: Punkt links unten setzen
 
-Neue Breite = 50, neue Höhe = 47
+Neue Breite = 40, neue Höhe = 27
 Expand/shrink: Punkt oben mitte setzen
 
 Startpunkte in Szenario 3:
@@ -61,11 +61,10 @@ Spieler 1 (Tedder): 8,7 (Sumpfburg, Burgfried)
 Spieler 2 (Elfenkönig): 9,26 (Elfenburg, Burgfried)
 
 ## Szenario 5 (05_taking_sides.map)
-Breite: 50, Höhe: 70
+Breite: 52, Höhe: 62
 Expand/shrink: Punkt links oben
 
-Breite: 50, Höhe 36
-Expand/shrink: Punkt unten mitte
+Breite: 48, Höhe 30
+Expand/shrink: Punkt unten rechts
 
-Spieler 1 (Tedder): 8,13
-Spieler 2 (Elfenkönig): 7,43
+Spieler 1 (Tedder): 4,15
