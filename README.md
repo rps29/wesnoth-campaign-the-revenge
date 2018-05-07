@@ -1,1 +1,1 @@
-Any documentation can be found at doku/ directory.
+All documentation can be found in the directory **doku**.
