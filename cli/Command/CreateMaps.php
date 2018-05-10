@@ -27,9 +27,7 @@ class CreateMaps extends AbstractCommand
     {
         $path = BASE . '/maps';
         $completeMap = file($path . '/complete.map');
-        if (!$args) {
-            $this->createAllMaps($path, $completeMap);
-        } else {
+        if ($args) {
             foreach ($args as $arg) {
                 if (isset(self::MAP_SPECS[$arg])) {
                     $this->createMap($path, $completeMap, self::MAP_SPECS[$arg]);
@@ -40,6 +38,8 @@ class CreateMaps extends AbstractCommand
                     }
                 }
             }
+        } else {
+            $this->createAllMaps($path, $completeMap);
         }
 
     }

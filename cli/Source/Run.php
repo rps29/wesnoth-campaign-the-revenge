@@ -34,11 +34,11 @@ class Run
     }
 
     /**
-     * Scan and initialize all valid commands, located at `console/Command/*`
+     * Scan and initialize all valid commands, located at `cli/Command/*`
      */
     private function init()
     {
-        $scan = BASE . '/console/Command';
+        $scan = BASE . '/cli/Command';
         $paths = scandir($scan);
         foreach ($paths as $path) {
             $file = $scan . '/' . $path;

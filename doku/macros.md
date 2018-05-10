@@ -112,6 +112,11 @@
 - Read SIDE_TEDDER_BEGINNING macro
 
 
+**INIT_CHOSEN_ALLY**
+
+- Check whether a chosen_ally has been saved before or not. If it hasn't, create Nekromant as your ally
+
+
 ## From file units.cfg
 
 **TEDDER**

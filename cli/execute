@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 /**
- * `php console/execute <command> <args>`
+ * `php cli/execute <command> <args>`
  *
  * This file executes your desired command
  * For easier usage I left out the .php file extension
@@ -14,7 +14,7 @@ define('BASE', str_replace('\\', '/', dirname(__DIR__)));
 
 spl_autoload_register(function (string $class) {
     $adjust = str_replace('\\', '/', $class);
-    $file = BASE . '/console/' . $adjust . '.php';
+    $file = BASE . '/cli/' . $adjust . '.php';
     require_once $file;
 });
 

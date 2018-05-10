@@ -5,7 +5,7 @@ use Source\AbstractCommand;
 
 /**
  * todo @papa:
- * Den gesamten `console/` Ordner refactoren !
+ * Den gesamten `cli/` Ordner refactoren !
  */
 class CreateMacroDocumentation extends AbstractCommand
 {

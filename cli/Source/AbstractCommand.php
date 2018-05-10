@@ -7,12 +7,12 @@ abstract class AbstractCommand
     /**
      * Initialize your command here
      */
-    public $command;
+    public $command = '';
 
     /**
      * Declare a message for your command that is shown in the help message
      */
-    public $help;
+    public $help = '';
 
     /**
      * The function that will be called for your command
