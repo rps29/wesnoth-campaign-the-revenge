@@ -1,0 +1,38 @@
+#!/usr/bin/php
+<?php
+/**
+ * `php console/execute <command> <args>`
+ *
+ * This file executes your desired command
+ * For easier usage I left out the .php file extension
+ */
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+define('BASE', str_replace('\\', '/', dirname(__DIR__)));
+
+spl_autoload_register(function (string $class) {
+    $adjust = str_replace('\\', '/', $class);
+    $file = BASE . '/console/' . $adjust . '.php';
+    require_once $file;
+});
+
+require_once "Source/DependencyInjector.php";
+
+$injector = new \Source\DependencyInjector();
+
+function inject(string $class)
+{
+    global $injector;
+    return $injector->inject($class);
+}
+
+try {
+    /** @var \Source\Run $executor */
+    $executor = inject('Source\Run');
+    $executor->execute($argv);
+} catch (Exception $e) {
+
+}
+
