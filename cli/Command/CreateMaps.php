@@ -32,7 +32,7 @@ class CreateMaps extends AbstractCommand
                 if (isset(self::MAP_SPECS[$arg])) {
                     $this->createMap($path, $completeMap, self::MAP_SPECS[$arg]);
                 } else {
-                    $this->writeln('Passed argument "' . $arg . '" is unvalid. The following arguments are valid:');
+                    $this->writeln('Passed argument "' . $arg . '" is invalid. The following arguments are valid:');
                     foreach (array_keys(self::MAP_SPECS) as $validArg) {
                         $this->writeln($validArg);
                     }
@@ -57,7 +57,6 @@ class CreateMaps extends AbstractCommand
         }
     }
 
-
     /**
      * Create a single map
      */
@@ -81,7 +80,6 @@ class CreateMaps extends AbstractCommand
         echo "Es wird gespeichert: $mapFileName\n";
         file_put_contents($mapFileName, $newLines);
     }
-
 
     /**
      * Validate the given mapspec

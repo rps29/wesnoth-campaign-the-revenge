@@ -47,6 +47,9 @@
 - MESSAGE: Check {SPEAK} macro
 
 
+**SPEAK_ALLY** *MSG_NEKROMANT MSG_URUKNORG*
+No documentation found.
+
 **VICTORY**
 
 - Call this macro when the scenario is won
@@ -72,7 +75,7 @@
 
 **CREATE_CASTLE** *X Y*
 
-- This macro creates an usual castle around given X and Y coordinates. Terrains used are CE surrounding an Ke castle keep for the X and Y coordinates
+- This macro creates an usual castle around given X and Y coordinates. Terrains used are Ce surrounding an Ke castle keep for the X and Y coordinates
 - X and Y: The coordinates for the keep
 
 
@@ -114,7 +117,9 @@
 
 **INIT_CHOSEN_ALLY**
 
-- Check whether a chosen_ally has been saved before or not. If it hasn't, create Nekromant as your ally
+- Check whether a chosen_ally has been saved before or not. If it hasn't, create Nekromant as your ally by default
+- If ally hasn't been created before, also set the stored_ally_leader and stored_ally_side
+- Same checks and initializations for the stored_chosen_enemy
 
 
 ## From file units.cfg

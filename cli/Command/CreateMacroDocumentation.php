@@ -31,6 +31,7 @@ class CreateMacroDocumentation extends AbstractCommand
         }
         $this->writeDoc();
     }
+
     private function importFileDoc(string $filePath)
     {
         $this->writeln('Importing macros from ' . basename($filePath));
