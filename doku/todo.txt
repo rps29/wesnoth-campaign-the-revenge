@@ -1,0 +1,57 @@
+Ganze Kampagne in den Story-Parts in der ICH-Perspektive
+
+Kampagne im Präsenz erzählen
+
+"nekrophiler" Nekromant >>> Das "nekrophil" nur von Elfen ein paar Mal sagen lassen, damit es nicht overhead wird
+
+Szenario 1
+==========
+
+Story > Part 1
+friedlebende > friedliebende
+
+Wenn Tedder stirbt > Dialog "...möge meine Rache die..." zu "möge die Rache meiner `Homeboys` die..." >>> Um nicht zu spoilern
+
+Der Satz, am Ende "An diesem Tage starb Tedder......" >>> Den nächsten Satz ".....oder doch nicht?" in die Story von S2
+
+
+Szenario 2
+==========
+
+Wenn der Trank >zerstört< wird, dann explodiert er und zieht 15 LP ab
+
+Nekromant wird gefunden / befreit:
+	Dialog "Das wissen wir nämlich selbst nicht genau" zu "Das wissen wir selbst nicht genau" >>> "nämlich" rauslassen
+	Dialog "Gemainsam können wir es schaffen" zu "Gemeinsam können wir es vielleicht schaffen" >>> "vielleicht", da man sterben kann
+
+Ratten spawn event:
+	Dialog "Irgendwie schmecke ich nichts" weiter ausbauen
+
+Wächtergeist stirbt:
+	Dialog "sich in Nichts auflöste" weiter ausbauen, "Nirvana" bzw. "absolute Nichts" 
+
+
+Szenario 3
+==========
+
+Story > Part mit dem Buch:
+	Nekromant will Tedder und Ugoki das Buch "verkaufen", auch in Zukunft will Nekromant das Buch immer an Andere verkaufen
+	"verstehten" zu "verstanden" *facepalm*
+	
+Szenario 4
+==========
+
+Skelette platzieren, die nichts können, wegen Fehlbeschwörungen von Tedder
+
+Szenario 5
+==========
+
+Nekromant bekommt goldene Krone zurück!
+
+Orcish warlord soll guardian werden
+
+Szenario 6
+==========
+
+Wenn Verstärkung von Disgusburg kommt
+	Dialog "Um ein paar Truppen erbeten" zu "Ein paar Truppen erbitten"
