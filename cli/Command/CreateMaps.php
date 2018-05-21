@@ -11,7 +11,8 @@ class CreateMaps extends AbstractCommand
      */
     const MAP_SPECS = [
         1 => ['name' => '01_beginning', 'x1' => 50, 'y1' => 15, 'x2' => 84, 'y2' => 52],
-        2 => ['name' => '02_resurrection', 'x1' => 12, 'y1' => 0, 'x2' => 44, 'y2' => 32],
+        // 2 => ['name' => '02_resurrection', 'x1' => 12, 'y1' => 0, 'x2' => 44, 'y2' => 32],
+        // Szenario 2 ist eine externe Map, die eine Höhle im Haaggebirge, nördlich des Randes der complete.map, darstellen soll
         3 => ['name' => '03_undead_life', 'x1' => 0, 'y1' => 25, 'x2' => 42, 'y2' => 54],
         4 => ['name' => '04_elves_war', 'x1' => 0, 'y1' => 40, 'x2' => 34, 'y2' => 74],
         5 => ['name' => '05_taking_sides', 'x1' => 4, 'y1' => 32, 'x2' => 54, 'y2' => 64],
