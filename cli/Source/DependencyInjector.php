@@ -1,6 +1,9 @@
 <?php
 namespace Source;
 
+/**
+ * Automatic constructor dependency injection.
+ */
 class DependencyInjector
 {
 

@@ -1,6 +1,9 @@
 <?php
 namespace Source;
 
+/**
+ * Executing the command requested by the CLI
+ */
 class Run
 {
 

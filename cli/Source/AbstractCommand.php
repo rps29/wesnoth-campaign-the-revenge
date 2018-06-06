@@ -1,6 +1,9 @@
 <?php
 namespace Source;
 
+/**
+ * Implement this class and define your command by the given properties.
+ */
 abstract class AbstractCommand
 {
 
