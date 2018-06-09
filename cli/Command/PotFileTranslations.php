@@ -58,9 +58,13 @@ msgstr ""
     {
         $content = $this->header;
         foreach ($translations as $trans) {
-            $content .= "\n";
-            $content .= 'msgid ' . $trans;
-            $content .= 'msgstr ""' . "\n";
+            if (substr($trans, 0, 1) === '#') {
+                $content .= "\n" . $trans . "\n";
+            } else {
+                $content .= "\n";
+                $content .= 'msgid ' . $trans;
+                $content .= 'msgstr ""' . "\n";
+            }
         }
         file_put_contents(self::POT_FILE, $content);
     }
@@ -71,11 +75,18 @@ msgstr ""
     private function prepareTranslations(array $translations): array
     {
         foreach ($translations as $key => $trans) {
+            if (substr($trans, 0, 1) === '#') {
+                continue;
+            }
             if (strpos($trans, "\n")) {
                 $tmp = explode("\n", $trans);
                 $trans = '""' . "\n";
-                foreach ($tmp as $line) {
-                    $trans .= '"' . trim($line) . '"' . "\n";
+                foreach ($tmp as $row => $line) {
+                    $addNl = '\n';
+                    if ($row === count($tmp) - 1) {
+                        $addNl = '';
+                    }
+                    $trans .= '"' . trim($line) . $addNl . '"' . "\n";
                 }
             } else {
                 $trans = '"' . $trans . '"' . "\n";
@@ -92,6 +103,7 @@ msgstr ""
     {
         $translations = [];
         foreach ($files as $file) {
+            $translations[] = '# ' . $file;
             echo PHP_EOL . 'Scanning file ' . $file . '...';
             $content = file_get_contents($file);
             $_ = '_';
@@ -116,7 +128,7 @@ msgstr ""
                 }
                 $transPos = $transPos + ($startStr - $transPos);
 
-                // the string to translate
+                // The string to translate
                 $string =  substr($content, $transPos, $endStr - $startStr);
                 $transOffset = ++$endStr;
                 $translations[] = $string;
