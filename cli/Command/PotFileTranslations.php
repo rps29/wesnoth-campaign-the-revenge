@@ -144,6 +144,9 @@ msgstr ""
     private function getAllTranslatableFiles(): array
     {
         $files = [];
+        foreach ($this->files as $file) {
+            $files[] = BASE . '/'. $file;
+        }
         foreach ($this->paths as $path) {
             $found = scandir(BASE . '/' . $path);
             foreach ($found as $file) {
@@ -154,9 +157,6 @@ msgstr ""
                     echo $file . ' is not a file!' . PHP_EOL;
                 }
             }
-        }
-        foreach ($this->files as $file) {
-            $files[] = BASE . '/'. $file;
         }
         return $files;
     }

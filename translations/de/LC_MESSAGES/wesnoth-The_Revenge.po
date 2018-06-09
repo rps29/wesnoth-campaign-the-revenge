@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-09 14:20+0200\n"
-"PO-Revision-Date: 2018-06-09 15:41+0200\n"
+"PO-Revision-Date: 2018-06-09 16:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -13,6 +13,40 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/_main.cfg
+msgid "The Revenge"
+msgstr "Die Rache"
+
+msgid "TR"
+msgstr ""
+
+msgid "Storymode"
+msgstr "Story-Modus"
+
+msgid "Normal"
+msgstr ""
+
+msgid "Nightmare"
+msgstr "Albtraum"
+
+msgid ""
+"Perishing iron gores my breast.\n"
+"My heart arduously brings its last breath to an end.\n"
+"Should my existence fall into oblivion in this way?\n"
+"It has to be stopped.\n"
+"The revenge shall be mine.\n"
+"\n"
+"(21 scenarios - 0 playable - 21 in development)"
+msgstr ""
+"Kaltes Eisen durchbohrt meine Brust.\n"
+"Mein Herz bringt den letzten Atemzug mühsam zu Ende.\n"
+"Sollte meine Existenz auf diese Weise in Vergessenheit geraten?\n"
+"Es muss beendet werden.\n"
+"Die Rache soll die meine sein.\n"
+"\n"
+"(21 Szenarien - 0 spielbar - 21 in Entwicklung)"
+
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/00_testing.cfg
 msgid "Unit Testing Environment"
 msgstr ""
 
@@ -28,6 +62,7 @@ msgstr ""
 msgid "Test anything you want!"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/01_beginning.cfg
 msgid "Episode 1: Der Anfang"
 msgstr ""
 
@@ -230,6 +265,7 @@ msgstr ""
 msgid "...oder doch nicht?"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/02_resurrection.cfg
 msgid "Episode 2: Auferstehung"
 msgstr ""
 
@@ -416,6 +452,7 @@ msgstr ""
 msgid "Time over!"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/03A_undead_life.cfg
 msgid "Episode 3: Untotes Leben"
 msgstr ""
 
@@ -538,6 +575,8 @@ msgstr ""
 msgid "Das war's. Aus und Ende."
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/03B_wilderness.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/04A_elves_war.cfg
 msgid "Episode 4: Der Elfenkrieg"
 msgstr ""
 
@@ -678,6 +717,8 @@ msgstr ""
 msgid "Zu lange herumgetrödelt, Saubande, blöde."
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/04B_gebirgsmarsch.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/05A_taking_sides.cfg
 msgid "Episode 5: Die Entscheidung"
 msgstr ""
 
@@ -854,6 +895,8 @@ msgstr ""
 msgid "Zeit ist vorbei. Ihr wurdet besiegt."
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/05B_friend_or_enemy.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06Aa_reconquest.cfg
 msgid "Episode 6: Rückeroberung"
 msgstr ""
 
@@ -964,12 +1007,27 @@ msgstr ""
 msgid "Zeit ist vorbei. Verloren!"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06Ab_annihilation.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06B_zwergische_gesellschaft.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07Aa_revenge.cfg
 msgid "Episode 7: Rache"
 msgstr ""
 
 msgid "Todo"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07Ab_kriegsrat.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07B_gefangene_der_zwerge.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/08Ab_revenge.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/08B_waffenkammer.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/09B_schlachtplan.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/10B_canalization.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/11B_bostim.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/12B_revenge.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/13B_ewige_stille.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/epilogue.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/_units.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/dwarves/Exiled_Dwarf.cfg
 msgid "Exiled Dwarf"
 msgstr ""
 
@@ -979,9 +1037,11 @@ msgstr ""
 msgid "Battle Axe"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/dwarves/Exiled_Dwarf_Unarmed.cfg
 msgid "Fist"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Insane_Dark_Sorcerer.cfg
 msgid "Insane Dark Sorcerer"
 msgstr ""
 
@@ -991,9 +1051,11 @@ msgstr ""
 msgid "Chastising"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Insane_Necromancer.cfg
 msgid "Insane Necromancer"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Naughty_Girl.cfg
 msgid "Naughty Girl"
 msgstr ""
 
@@ -1003,6 +1065,8 @@ msgstr ""
 msgid "Toxic Knives"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Naughty_Girl_Unarmed.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Renegade.cfg
 msgid "Renegade"
 msgstr ""
 
@@ -1012,21 +1076,27 @@ msgstr ""
 msgid "Sling"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Renegade_Axe.cfg
 msgid "Axe"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Renegade_Heavy.cfg
 msgid "Mace"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Renegade_Unarmed.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Troll_Warrior_Unarmed.cfg
 msgid "Troll Warrior"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Troll_Wraith.cfg
 msgid "Troll Wraith"
 msgstr ""
 
 msgid "Touch"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Undead_Troll.cfg
 msgid "Undead Troll"
 msgstr ""
 
@@ -1037,15 +1107,20 @@ msgid ""
 "an undead."
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Bone_Knight.cfg
 msgid "Bone Knight"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Bone_Rider.cfg
 msgid "Bone Rider"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Faulty_Summoned.cfg
 msgid "Faulty Skeleton"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Skeleton_Archer.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Skeleton_Death_Shooter.cfg
 msgid "Death Shooter"
 msgstr ""
 
@@ -1057,6 +1132,7 @@ msgstr ""
 msgid "Sharp Shot"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Skeleton_Sniper.cfg
 msgid "Skeleton Sniper"
 msgstr ""
 
@@ -1068,15 +1144,21 @@ msgstr ""
 msgid "Bone Burst"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/attacks.cfg
 msgid "Soul Eradication"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/bigmap.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/macros.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/missile-frames.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/sides.cfg
 msgid "Trolle"
 msgstr ""
 
 msgid "Untote"
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/special-hail.cfg
 msgid "Hail"
 msgstr ""
 
@@ -1097,6 +1179,7 @@ msgid ""
 "looseness of taking aim, this offenses damage will vary every time it hits."
 msgstr ""
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/units.cfg
 msgid "Tedder"
 msgstr ""
 
@@ -1105,35 +1188,3 @@ msgstr ""
 
 msgid "Uruknorg der Gewaltige"
 msgstr ""
-
-msgid "The Revenge"
-msgstr ""
-
-msgid "TR"
-msgstr ""
-
-msgid "Storymode"
-msgstr ""
-
-msgid "Normal"
-msgstr ""
-
-msgid "Nightmare"
-msgstr ""
-
-msgid ""
-"Perishing iron gores my breast.\n"
-"My heart arduously brings its last breath to an end.\n"
-"Should my existence fall into oblivion in this way?\n"
-"It has to be stopped.\n"
-"The revenge shall be mine.\n"
-"\n"
-"(21 scenarios - 0 playable - 21 in development)"
-msgstr ""
-"Kaltes Eisen durchbohrt meine Brust.\n"
-"Mein Herz bringt den letzten Atemzug mühsam zu Ende.\n"
-"Sollte meine Existenz auf diese Weise in Vergessenheit geraten?\n"
-"Es muss beendet werden.\n"
-"Die Rache soll die meine sein.\n"
-"\n"
-"(21 Szenarien - 0 spielbar - 21 in Entwicklung)"

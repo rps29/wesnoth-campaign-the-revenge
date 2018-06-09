@@ -15,6 +15,33 @@ msgstr ""
 "X-Poedit-KeywordsList: _\n"
 
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/_main.cfg
+
+msgid "The Revenge"
+msgstr ""
+
+msgid "TR"
+msgstr ""
+
+msgid "Storymode"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Nightmare"
+msgstr ""
+
+msgid ""
+"Perishing iron gores my breast.\n"
+"My heart arduously brings its last breath to an end.\n"
+"Should my existence fall into oblivion in this way?\n"
+"It has to be stopped.\n"
+"The revenge shall be mine.\n"
+"\n"
+"(21 scenarios - 0 playable - 21 in development)"
+msgstr ""
+
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/00_testing.cfg
 
 msgid "Unit Testing Environment"
@@ -909,31 +936,4 @@ msgid "Ugoki"
 msgstr ""
 
 msgid "Uruknorg der Gewaltige"
-msgstr ""
-
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/_main.cfg
-
-msgid "The Revenge"
-msgstr ""
-
-msgid "TR"
-msgstr ""
-
-msgid "Storymode"
-msgstr ""
-
-msgid "Normal"
-msgstr ""
-
-msgid "Nightmare"
-msgstr ""
-
-msgid ""
-"Perishing iron gores my breast.\n"
-"My heart arduously brings its last breath to an end.\n"
-"Should my existence fall into oblivion in this way?\n"
-"It has to be stopped.\n"
-"The revenge shall be mine.\n"
-"\n"
-"(21 scenarios - 0 playable - 21 in development)"
 msgstr ""
