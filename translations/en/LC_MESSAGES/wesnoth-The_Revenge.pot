@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Revenge\n"
+"POT-Creation-Date: 2018-06-09 14:20+0200\n"
+"PO-Revision-Date: 2018-06-09 14:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: _\n"
+
+
+msgid "Unit Testing Environment"
+msgstr ""
+
+msgid "Player"
+msgstr ""
+
+msgid "Enemies"
+msgstr ""
+
+msgid "Enemy"
+msgstr ""
+
+msgid "Test anything you want!"
+msgstr ""
+
+msgid "Episode 1: Der Anfang"
+msgstr ""
+
+msgid "Menschen des Ostens"
+msgstr ""
+
+msgid "General Disgustus"
+msgstr ""
+
+msgid "Mighty Starcher"
+msgstr ""
+
+msgid "Die Geschichte beginnt in einem friedlichen, ruhigen und entspannten Dorf, gelegen im Haaggebirge. Zu dieser Zeit herrschten in genannten Bergen die friedlebenden Trolle des Stammes von Tedder. Du wirst nun, selbstverständlich, eine Menge von Kriegen, Tag ein und Tag aus, erwarten. Trolle in den Bergen, ohne in Streitigkeit mit den Menschen oder Zwergen? Aber ich verspreche dir, alles und jeder wurde gut behandelt."
+msgstr ""
+
+msgid "Tedder wusste, was wann zu tun war. Um die Kampfeslüste seiner Stammmitglieder zu stillen ließ er Wettkämpfe austragen, mit Richtlinien, und natürlich nur bis kurz vor dem Tod. Nicht bis zum Tod. Es waren ja, wie gesagt, friedliche Zeiten unter der Herrschaft von Tedder."
+msgstr ""
+
+msgid "Die Orks, südlich lebend, jenseits der Menschenstadt Disgusburg, sogar noch viel weiter südlich als der Stille Wald, waren ebenfalls glücklich mit dem nun lange andauernden Frieden. Die Kriegsfeden zwischen den einzelnen Orkstämmen nahmen ab. Die Heerführer der größeren Stämme hatten sich vereint, so dass sogar einstimmig ein neuer Kopf des Rates gewählt wurde - Uruknorg, der Sohn von Kapou'e, Sohn von Schwarzauge Karun."
+msgstr ""
+
+msgid "Von den im Stillen Wald lebenden Wesen, seien es die alten Waldschrate oder die dem Elfenkönig Vasolin unterliegenden Elfen, wurde seit Beginn des Friedens zwischen Nachtwesen und Menschen nichts mehr gehört."
+msgstr ""
+
+msgid "Am heutigen Vormittag jedoch war die Zeit gekommen, in der sich etwas ändern sollte. Es war General Disgustus, ein sturrer und erhabener Wichtigtuer, der es vor Kurzem bis zum Machthaber von Disgusburg geschafft hatte. Raben flogen von der Menschenstadt nach Süden und nach Westen. Die Stadt rüstete sich auf. Glocken läuteten am heutigen Morgen. Soldaten wurden aus der Reserve zur Verstärkung geholt. Die Grenzwachen am Fluss wurden verstärkt..."
+msgstr ""
+
+msgid "Die Trolle des Haaggebirges bekamen die Veränderung und den Lärm am Morgen mit. Tedder schickte zwei seiner Krieger zur südlichen Grenze der Berge, um herauszufinden, was in Disgusburg vor sich ging. In der Ferne ertönte ein leise näher kommendes Geräusch, an Pferdehufe erinnernd. Hier beginnt unsere Geschichte..."
+msgstr ""
+
+msgid "Satisfier Meh"
+msgstr ""
+
+msgid "Brunt Meh"
+msgstr ""
+
+msgid "Sir Richard"
+msgstr ""
+
+msgid "Ritter Roubard"
+msgstr ""
+
+msgid "Ritter Gerhard"
+msgstr ""
+
+msgid "Helmut"
+msgstr ""
+
+msgid "Almbard"
+msgstr ""
+
+msgid "Bruder! Schau, dort im Süden. Ritter mit dem Wappen von Disgusburg! Ob Sie Kundschaft überbringen?"
+msgstr ""
+
+msgid "Seid gegrüßt, Reiter von Disgusburg! Was geschieht im Süden hinter verschlossenen Türen? Hämmer wurden geschwungen, Glocken geläutet und..."
+msgstr ""
+
+msgid "General, wir ham 'n paar Trolle nah zum Flachland g'sehn."
+msgstr ""
+
+msgid "Und was...?"
+msgstr ""
+
+msgid "Naja, einen hab'n wir erwischt."
+msgstr ""
+
+msgid "Dann ist es wohl soweit. Lasst Botschaft an die Elfen überbringen, sie soll'n sich bereit halten. Bringen wir Tedders Herrschaft über das Haaggebirge hiermit zu Ende!"
+msgstr ""
+
+msgid "Wir werden angegriffen! ALARM! Die Boten aus Disgusburg haben meinen Bruder ermordet! General Disgustus muss sich für eine Invasion gerüstet haben!"
+msgstr ""
+
+msgid "Was kommt mir hier zu Ohren? Die Menschen brechen den Frieden, den, den ein jeder Elf, Zwerg, Ork und Troll seit eh und je ersehnte?"
+msgstr ""
+
+msgid "Jawohl, Tedder, so wahr ich hier stehe. Ich zweifle nicht an unserem Volke - Lass uns diesen schwertschwingenden Stinktieren zeigen, was passiert, wenn man den Frieden mit euch, Tedder, ins Wanken bringt!"
+msgstr ""
+
+msgid "Wir haben kaum noch Gold in unserem Besitz, unsere Vorräte in den Höhlen wurden von Wilden ausgeraubt. Bringt mir Ugoki, er soll alle Reserven mobilisieren!"
+msgstr ""
+
+msgid "Jemand hat nach mir gerufen? Ich musste meine Nachspeise aus Eichhörnchen und Pferdefuß unterbrechen."
+msgstr ""
+
+msgid "Pelter Gol"
+msgstr ""
+
+msgid "Lunatic Gol"
+msgstr ""
+
+msgid "Wir hörten von den Untaten der Menschen, Tedder - Wie lauten eure Befehle?"
+msgstr ""
+
+msgid "Überlebe so lange wie möglich gegen die kommende Invasion von General Disgustus"
+msgstr ""
+
+msgid "Dieses Szenario ist im Todesfall eines Helden nicht verloren."
+msgstr ""
+
+msgid "Es werden 0 Gold in das nächste Szenario übernommen."
+msgstr ""
+
+msgid "Rolph"
+msgstr ""
+
+msgid "Stabin"
+msgstr ""
+
+msgid "Ah, guckt! Die Attentäter sind eingetroffen."
+msgstr ""
+
+msgid "Schulz!"
+msgstr ""
+
+msgid "Ihr werdet mich nie besiegen, geht doch gar nicht. Meine Männer haben euch bereits umrundet. Flieht, solange euch die Zeit dazu bleibt!"
+msgstr ""
+
+msgid "Disgusburg ist besser als ihr!"
+msgstr ""
+
+msgid "Die Trolle waren so kurz vor dem Sieg - Doch die Überraschung war auf der Seite der Menschen."
+msgstr ""
+
+msgid "Ich habe versagt zu herrschen... Doch möge meine Rache die Menschen verbrennen und ihre Seelen auf Ewig quälen!"
+msgstr ""
+
+msgid "Es tut mir leid, Tedder... Ich habe versagt."
+msgstr ""
+
+msgid "Tedders Stammesmitglieder kämpften lang. Jene, die immernoch am Leben waren, wurden kaltblütig umgebracht. In Zusammenarbeit mit den Attentätern wurde bis auf den letzten Troll Blut vergossen."
+msgstr ""
+
+msgid "Greg"
+msgstr ""
+
+msgid "An diesem Tage starb Tedder..."
+msgstr ""
+
+msgid "...oder doch nicht?"
+msgstr ""
+
+msgid "Episode 2: Auferstehung"
+msgstr ""
+
+msgid "Auferstandene"
+msgstr ""
+
+msgid "Nekromant"
+msgstr ""
+
+msgid "Wächter"
+msgstr ""
+
+msgid "Pluton"
+msgstr ""
+
+msgid "Monster"
+msgstr ""
+
+msgid "Schwärze umgibt Tedder."
+msgstr ""
+
+msgid "Fühlt sich der Tod so an? Halt, was war das - Ein leichter Luftzug. Fühlt sich an, als ob der Wind <i>durch ihn hindurch</i> weht... Kann das sein? Er ist doch wach! Doch nicht tot."
+msgstr ""
+
+msgid "Ein kleines Licht in der Ferne lässt sich blicken. Es ist grell. Es wird immer heller. Schließlich erkennt Tedder etwas von seiner Umgebung. Könnte eine Höhle sein."
+msgstr ""
+
+msgid "Als Tedder deutlich eine Höhlenwand vor sich sah, erkannte er eine weitere Gestalt nah vor sich. Er wusste nicht, was mit ihm los war. Er lebte. Doch er war irgendwie nicht hier. Sein Körper. Sein Körper fehlte! Aber... Wtf?"
+msgstr ""
+
+msgid "Scheiße, der letzte Schnaps muss schlecht gewesen sein."
+msgstr ""
+
+msgid "Wer bist du? <i>Was</i> bist du??"
+msgstr ""
+
+msgid "Oh mein Gott. Was bist du denn? Du... Bist durchsichtig, ist dir das klar? Hast du... Bist du ansteckend?"
+msgstr ""
+
+msgid "Das selbe kann ich von dir behaupten. Ich bin Tedder, Heerführer der Trolle aus dem Haaggebirge. Das war ich zumindest vor Kurzem. Ich weiß um ehrlich zu sein nicht, wann das war. Mir kommt es nur wie ein paar Minuten vor seit ich... Moment. Ich wurde getötet. Dieser dreckige, mickrige, stinkende Wurm von Disgusburg hat meine Heimat überrannt!!!"
+msgstr ""
+
+msgid "Na, so trifft man sich wieder. Auch wenn du, ich meine wir, wirklich nicht gesund aussehen und du mich ohne Zweifel nicht wieder erkennst - Ich bin, oder war, Ugoki. Ich kann mich auch an etwas erinnern. Da war... Krieg. Nein, Friede. Aber dann... Ich musste mein Frühstück unterbrechen."
+msgstr ""
+
+msgid "Das erleichtert mich zumindest ein Bisschen. Auch wenn ich wirklich verstört bin was unser Dasein betrifft. Was sind wir? Was ist mit uns passiert?"
+msgstr ""
+
+msgid "Wir sehen aus wie... Wir sehen nicht aus wie <i>etwas</i>, wir sehen viel mehr aus wie etwas <i>Bogusartiges</i>. Unecht. Geisterhaft."
+msgstr ""
+
+msgid "Das werden wir gemeinsam herausfinden, hoffe ich. Lass uns aus dieser stinkenden und engen Höhle entkommen."
+msgstr ""
+
+msgid "Erforscht das Höhlensystem"
+msgstr ""
+
+msgid "Tod eines Helden"
+msgstr ""
+
+msgid "Rundenlimit erreicht"
+msgstr ""
+
+msgid "Tedder ist es in diesem Szenario nicht möglich Einheiten zu rekrutieren."
+msgstr ""
+
+msgid "Der glibberige und tödlich rot aussehende Inhalt könnte gefährlich sein. Soll $unit.name die Flüssigkeit trinken?"
+msgstr ""
+
+msgid "Runter damit!"
+msgstr ""
+
+msgid "Wundersame Phiole"
+msgstr ""
+
+msgid "Dieses Gebräu erhöht die Trefferpunkte vorrübergehend um 15."
+msgstr ""
+
+msgid "Vorsichtig zurücklegen, damit es nicht zerbricht."
+msgstr ""
+
+msgid "Das wäre viel zu riskant. Zerstören!"
+msgstr ""
+
+msgid "Wer seid Ihr? Tut mir nichts! Ich werde Euch auch zu Willen sein - nur helft mir hier raus!"
+msgstr ""
+
+msgid "Wer wir sind, oder <i>was</i> wir sind? Das wissen wir nämlich selbst nicht ganz genau... Aber raus hier ist eine gute Idee. Nur wie?"
+msgstr ""
+
+msgid "Am Ausgang lauert ein mächtiger Geist, den ich alleine nicht besiegen kann. Aber zusammen können wir es schaffen!"
+msgstr ""
+
+msgid "Nun gut, ich denke unser unbekannter Freund hier kennt sich etwas besser aus als wir. Wir sollten ihn befreien und mit ihm von hier verschwinden."
+msgstr ""
+
+msgid "Dann lass uns mal versuchen diesen Käfig zu knacken."
+msgstr ""
+
+msgid "... Nach einigen sehr, sehr langen Minuten schafften es Tedder und Ugoki gemeinsam das Schloss des Eisenkäfigs zu zerstören."
+msgstr ""
+
+msgid "Findet den Ausgang und besiegt den Wächtergeist"
+msgstr ""
+
+msgid "Ha, ein Rattennest! Lecker..."
+msgstr ""
+
+msgid "Irgendwie schmecke ich nichts. Dieses Geistsein, oder was auch immer wir hier sind, scheint Auswirkungen auf die Wahl unserer zukünftigen Nahrungsquellen haben."
+msgstr ""
+
+msgid "Als der Wächtergeist sich in Nichts auflöste, wurde im Süden an der Höhlenwand ein Weg frei, aus dessen Richtung ein Lichtschein zu erblicken und ein warmer Luftzug zu spüren war."
+msgstr ""
+
+msgid "Was wird da aus uns? Ich bin nicht der Tedder von früher, aber auch kein mieses, undurchsichtiges Geisterwesen mehr. Das ist ja - fast schon Leben!"
+msgstr ""
+
+msgid "Richtig beobachtet, meine neuen Freunde! Ihr seid nun untot und könnt euch auch bei Sonnenlicht bewegen. Kommt mit mir und ich lehre Euch als Dank, dass ihr mir aus dieser Höhle geholfen habt, alles, was ich darüber weiß."
+msgstr ""
+
+msgid "Das hört sich vielversprechend an. Ugoki, was sagst du? Wenn wir in der Lage wären, unser eigenes Heer aufzubauen, könnten wir diesen Widerling Disgustus aus seiner Menschenstadt entgültig verjagen und erneut Frieden über unsere Lande bringen!"
+msgstr ""
+
+msgid "Dieser abstoßende Emporkömmling von einem Menschen. Ich werde alles tun, um die Haut von seinem Fleisch zu ziehen. Um sein Fleisch von den Knochen zu schaben und die Knochen zu spalten!"
+msgstr ""
+
+msgid "Time over!"
+msgstr ""
+
+msgid "Episode 3: Untotes Leben"
+msgstr ""
+
+msgid "Elfen"
+msgstr ""
+
+msgid "Rider"
+msgstr ""
+
+msgid "Tedder und Ugoki sind mit ihrem unbekannten Freund aus der Höhle entkommen und die beiden sind nun irgendetwas Untotes. So weit so gut."
+msgstr ""
+
+msgid ""
+"<b>Der Nekromant</b>"
+""
+"So war sein Name. Und, wie der Zufall es so will, war er auch ein Nekromant. Er wollte nicht verraten, wie alt er ist. Tedder und Ugoki dachten sich aber mehr, dass er es ganz einfach nichtmehr weiß, weil er zu lange in der Höhle in seinem Käfig verbracht hatte. Er wurde wohl vor einigen Jahren, mögen es nun Jahrzehnte oder gar Jahrhunderte sein, von den Elfen in diese Höhle eingesperrt, wo er von dem Wächtergeist auf Ewigkeiten gefangen gehalten werden sollte."
+msgstr ""
+
+msgid "Der Nekromant erzählte viele Dinge. Ein Hauptthema war sein Buch - Ein Buch, das alles über das Totenbeschwören enthielt, was es zu wissen gab. Er habe es wohl einst von einem großen Lichfürsten der grünen Inseln erhalten. Sobald er es in seinem Besitz hätte, könnte er ihnen alles verraten, beibringen und trainieren, so dass sie in der Lage sind, ihre Rache an General Disgustus auszuüben."
+msgstr ""
+
+msgid "Auf seinen Wunsch begaben wir uns in Richtung Südwesten, wo sich nahe dem stillen Wald früher einmal seine Gruft befand, in der Hoffnung, sein Buch dort wieder zu finden. Doch der Weg war natürlich, wie immer, nicht ganz einfach."
+msgstr ""
+
+msgid "Als sie sich auf freies Flachland begaben, hörten sie Schreie aus den Tiefen der Höhle hinter sich. Die Stimme war kaum wahrnehmbar, und doch verstehten sie alle einwandfrei. Es war beängstigend..."
+msgstr ""
+
+msgid "Vergessen werdet ihr mich nicht, Trolle! Ihr meint mich getötet zu haben, doch der Fluch des Nekromanten zieht Böses an - Sämtliche Geister dieser Lande werden euch heimsuchen!"
+msgstr ""
+
+msgid "Was ist das? Habt ihr das auch gehört?"
+msgstr ""
+
+msgid "Oh ja, ich denke das haben wir, ganz klar und deutlich. Lass uns von dieser Höhle verschwinden und weit hinter uns lassen. Ich möchte nichts mit dieser Geisterwelt zu tun haben - Untotsein reicht mir voll und ganz."
+msgstr ""
+
+msgid "Hahaha, wie ihr wünscht, meine Lieben. Ihr solltet jedoch wissen, dass diese Geister mich auf Schritt und Tritt verfolgen und versuchen werden, mich erneut in eines ihrer Gefängnisse in jenen Tiefen der Höhle zu befördern."
+msgstr ""
+
+msgid "Was ist das für ein Fluch, von dem die Stimme sprach?"
+msgstr ""
+
+msgid "Ein ander mal, meine Lieben. Ein ander mal."
+msgstr ""
+
+msgid "Geleite Nekromant zum Burgfried seiner Sumpffestung"
+msgstr ""
+
+msgid "Der nekrophile Nekromant ist wieder da! ALARM!"
+msgstr ""
+
+msgid "Elfen. Hatten wir uns nicht geeinigt, dass wir uns aus dem Weg gehen? Was macht ihr in meiner Sumpffestung?"
+msgstr ""
+
+msgid "Deine Zeit hier ist vorüber, Nekromant. Verschwinde, oder wir töten dich."
+msgstr ""
+
+msgid "Nein. Ich bin nicht der jenige, der verschwindet. Das seid ihr. Ich gehe nicht zurück in die Gefangenschaft!"
+msgstr ""
+
+msgid "Reitet nach Süden und überbringt Botschaft über die Flucht von Nekromant - Wir müssen sofortige Maßnahmen in Bewegung setzen!"
+msgstr ""
+
+msgid "Ich werde Vasolin benachrichtigen. Haltet durch!"
+msgstr ""
+
+msgid "Ich werde Vasolin benachrichtigen dass der Nekromant sich wieder auf freiem Fuße befindet. Haltet durch!"
+msgstr ""
+
+msgid "Endlich zuhause! Lasst mich nachsehen, ob mein Eigen noch aufzufinden ist."
+msgstr ""
+
+msgid "Mein Buch ist vergessen und zurückgelassen seit ich hier vertrieben wurde!"
+msgstr ""
+
+msgid "Nun, meine Freunde, beginnt Eure Ausbildung."
+msgstr ""
+
+msgid "Das war's. Aus und Ende."
+msgstr ""
+
+msgid "Episode 4: Der Elfenkrieg"
+msgstr ""
+
+msgid "Vasolin"
+msgstr ""
+
+msgid "In der Gruft im Sumpf, einem wirklich unangenehmen und gewöhnungsbedürftigen Heim, lernte Tedder die Grundlagen des Totenbeschwörens. Hierbei konzentrierten sich der Nekromant und Tedder auf leichte Beschwörungen - Wie dem Wiederbeleben von Skeletten im umliegenden Sumpfgebiet."
+msgstr ""
+
+msgid "Tedder machte sich wirklich gut - Er lernte sehr schnell. Die Beschwörung von Skeletten hatte er im Handumdrehen heraus. Vom Nekromanten kamen zunehmend sarkastische und etwas wirklich verrückte Kommentare. Tedder versuchte erfolgreich alles Abgedrehte, das von ihm kam, zu ignorieren."
+msgstr ""
+
+msgid "Ugoki hatte in der Zwischenzeit das Umfeld erkundet. Im Süden, gleich anschließend zum Sumpf wo sie sich befanden, erhoben sich die Baäume des Stillen Waldes. Ugoki war sich in diesem Moment nicht dessen bewusst, dass der Stille Wald immernoch unter der Herrschaft von Vasolin dem Elfenkönig stand. Ugoki durchstreifte den Wald sorgenlos, als er etwas hörte. Von Süden kamen Stimmen. Es kamen Geräusche von sich bewegendem morrschen Holz - Könnten das die sagenumwobenen uralten Waldschrate sein? Jetzt sah er etwas, weit entfernt, zwischen Bäumen laufen. Es war ein Elf! Es wurden mehr. Es wurde lauter."
+msgstr ""
+
+msgid "Ein Pfeil sauste an Ugoki vorbei. Noch einer."
+msgstr ""
+
+msgid "Ugoki rannte. Zurück zur Feste des Nekromanten. Durch den Sumpf. Rein da, vorbei an lebenden Skeletten, die Tedder zur Übung beschworen hatte..."
+msgstr ""
+
+msgid "Drump"
+msgstr ""
+
+msgid "Tedder! Tedder! Elfen kommen von Süden - Eine riesige Armee!"
+msgstr ""
+
+msgid "Unsere wohl auf ewig unversöhnlichen Feinde. Mal wieder. Nun denn, jetzt kannst du, lieber Tedder, zeigen, was du gelernt hast. Lass uns Spaß mit ein paar Elfenleichen haben!"
+msgstr ""
+
+msgid "Und ich dachte schon, wir würden hier nur Theorie machen. Lass uns ein paar Elfenschädel zerschmettern!"
+msgstr ""
+
+msgid "So sehen wir uns wieder, nekrophiler Nekromant! Wer hat Dich aus Deinem angestammten Verlies entlassen, so dass du uns wieder mit deiner stinkenden Präsenz belästigst?"
+msgstr ""
+
+msgid "Die beiden Trolle halfen mir - und jetzt helfen Sie mir dich umzubringen!"
+msgstr ""
+
+msgid "Trolle? Was machen Trolle in unseren Landen - Jene im Haaggebirge wurden doch von General Disgustus ausgelöscht!"
+msgstr ""
+
+msgid "So so. Sabbernde <i>Bergelfen</i> und Übergewichtige mit Stahl gekleidete Zweibeiner machen gemeinsame Sache. War euch der Wald nicht genug? Ich denke, wir werden den Elfen hier eine ganz besondere Aufmerksamkeit schenken, noch bevor wir gen Haaggebirge marschieren um Disgusburg zu vernichten."
+msgstr ""
+
+msgid "Das hört sich doch <i>befriedigend</i> an."
+msgstr ""
+
+msgid "Tötet diese Trolle und bringt mir den Nekromant in Ketten, so wie er es hätte bleiben sollen!"
+msgstr ""
+
+msgid "Besiege Vasolin, den Elfenkönig"
+msgstr ""
+
+msgid "Tedder ist es nun möglich Skelette zu beschwören."
+msgstr ""
+
+msgid "Oh, wir haben einen Elf umgebracht."
+msgstr ""
+
+msgid "Sehr gut, heute wollen wir Elfenblut fließen sehen!"
+msgstr ""
+
+msgid "Müssen wir die wirklich alle umbringen?"
+msgstr ""
+
+msgid "Ich denke, wenn wir den König haben, ist hier Schluss."
+msgstr ""
+
+msgid "Je mehr von denen, desto gut! Haut rein, Freunde!"
+msgstr ""
+
+msgid "Der Darm! Der Darm!"
+msgstr ""
+
+msgid "Hahahaha, die Leichen werden ein Paradies!"
+msgstr ""
+
+msgid "Du hast mich besiegt, verfluchter Nekromant! Und ihr, ihr Trolle, oder was ihr auch seid, wollt ihr seinen Fluch teilen?"
+msgstr ""
+
+msgid "HAHAHA! Spratzel, spritz!"
+msgstr ""
+
+msgid "Was hat es mit diesem Fluch auf sich?"
+msgstr ""
+
+msgid "Sagen wir mal so: Ich bedaure schon etwas, dass wir bei unseren Verbündeten nicht etwas wählerischer sein können."
+msgstr ""
+
+msgid "Meinen Fluch und seine Auswirkungen werdet ihr früher oder später mitbekommen - Doch nicht heute. Wenn ihr mich jetzt entschuldigt, hier sind einige Elfenleichen um die ich mich gerne kümmern würde. Hehe."
+msgstr ""
+
+msgid "Zu lange herumgetrödelt, Saubande, blöde."
+msgstr ""
+
+msgid "Episode 5: Die Entscheidung"
+msgstr ""
+
+msgid "Orks"
+msgstr ""
+
+msgid "Reiter"
+msgstr ""
+
+msgid "todo: Erzählung, dass der Nekromant immer unaushaltbarer wird, seine Nekrophilität prägt sich weit über das Gute hinaus."
+msgstr ""
+
+msgid "Es folgten einige Tage ohne Elfen-Angriffe. Nur die Gesellschaft des nekrophilen Nekromant wurde für Tedder und Ugoki immer unangenehmer. Am fünften Tag tauchte überraschend ein Gesandter der Orks auf."
+msgstr ""
+
+msgid "Negotiator"
+msgstr ""
+
+msgid "Wer bist du? Was streift ein einzelner Wolfsreiter in diesen Landen umher?"
+msgstr ""
+
+msgid "Dann suchst du wohl nach mir. Ich bin glaube ich etwas bleich geworden, aber was soll's. Was willst du von mir?"
+msgstr ""
+
+msgid "Uruknorg lässt mich ein Angebot überbringen: Wenn du der Freundschaft mit dem nekrophilen Nekromant entsagst, werden wir im Fall eines erneuten Konfliktes mit den Menschen oder Elfen an deiner Seite stehen. General Disgustus hat mit seiner Offensive gegen dein Volk den Friedensvertrag zwischen Nachtwesen und Menschen gebrochen. Der Rat und Uruknorg haben ihnen den Krieg mit der Macht der gesamten Horde erklärt."
+msgstr ""
+
+msgid "Warte mit deiner Entscheidung nicht zu lange - Uruknorg ist bereits auf dem Weg hier her. Jeder, der kein Freund ist, ist ein Feind. Und der Nekromant hat in der Vergangenheit bereits das Abkommen zwischen Nachtwesen und Menschen abgelehnt."
+msgstr ""
+
+msgid "<i>Ugoki, was sagst du?</i>"
+msgstr ""
+
+msgid "Wenn Tedder jetzt nach Westen, Richtung Sumpfburg, geht, bleibt er auf Nekromants Seite und die Orks werden Feinde. Wenn er nach Osten, Richtung Lager von Uruknorg, geht, wird Nekromant Feind und die Orks werden Verbündete."
+msgstr ""
+
+msgid "Zieht Tedder auf eines der beiden Flussufer"
+msgstr ""
+
+msgid "Wenn Tedder jetzt nach Westen, Richtung Sumpfburg, geht, bleibt er auf Nekromants Seite und die Orks werden Feinde. Wenn er nach Osten, Richtung Lager von Uruknorg, geht, wird Nekromant Feind und die Orks werden Verbündete"
+msgstr ""
+
+msgid "Diese Entscheidung gilt für den Rest der Kampagne"
+msgstr ""
+
+msgid "Besiege den widerlichen Ork Uruknorg"
+msgstr ""
+
+msgid "Tod von Tedder, Ugoki oder Nekromant"
+msgstr ""
+
+msgid "Besiege Nekromant"
+msgstr ""
+
+msgid "Tod von Tedder, Ugoki oder Uruknorg"
+msgstr ""
+
+msgid "In diesem Moment kam vom Nordosten ein lauter werdendes Geräusch. Es klang wie Pferdehufe von menschlichen Reitern..."
+msgstr ""
+
+msgid "Wickbert"
+msgstr ""
+
+msgid "Im Namen von General Disgustus verhafte ich alle Orks des Stammes von Uruknorg, Sohn von Kapou'e, Sohn von Schwarzauge Karun, sowie jene, die sich ihre Verbündeten nennen!"
+msgstr ""
+
+msgid "Im Namen von General Disgustus, jegliche umherstreifenden Untoten, oder jene, die von ihnen noch übrig sind, sollen hiermit von unseren Landen verbannt oder komplett vernichtet werden!"
+msgstr ""
+
+msgid "Diesem General Disgustus werden wir später noch die Türen eintreten, das verspreche ich euch!"
+msgstr ""
+
+msgid "Besiege Wickbert"
+msgstr ""
+
+msgid "Tod von Tedder, Ugoki oder $chosen_ally"
+msgstr ""
+
+msgid "Ihr mögt mich getötet haben - Doch General Disgustus Armeen haben sich verbessert und vergrößert, sie werden euch zerschmettern!"
+msgstr ""
+
+msgid "Was jetzt, Tedder? Wenn ihr aufbrecht, lasst mir doch bitte ein paar der Toten zurück... Ich habe bereits Verwendung für sie."
+msgstr ""
+
+msgid "Wohin führt euer Weg, Tedder?"
+msgstr ""
+
+msgid "Wir werden nach Nordosten aufbrechen und unsere Heimat zurückerobern. Dannach werden wir General Disgustus und seine gesamte Armee vernichten."
+msgstr ""
+
+msgid "Ich werde dafür sorgen, dass jeglichen Menschen, die in Kontakt mit Disgusburg stehen, ein erstaunlich kurzes Restleben verbleibt."
+msgstr ""
+
+msgid "Da werde ich euch glaube ich noch ein Stückchen begleiten - Soweit ihr noch etwas warten könnt und auch etwas für mich rausspringt."
+msgstr ""
+
+msgid "So sei es. Ich werde euch noch ein Stückchen in Richtung Norden begleiten. Doch ich werde erwartet und kann nicht all zu viel Zeit mit euch verbringen."
+msgstr ""
+
+msgid "JAAA! Spritz-spratz! Dummer Ork, dumme Trolle. Alle selber schuld."
+msgstr ""
+
+msgid "Ihr werdet bald einsehen, dass ihr die falsche Seite gewählt habt. Verdammt sollt ihr sein! Mein Bruder wird euch folgen und vernichten!"
+msgstr ""
+
+msgid "Dummer Ork. Ihr Trolle habt gut gelernt und seid jetzt einfach besser."
+msgstr ""
+
+msgid "Ihr meint mich besiegt zu haben? Ihr Pfuscher der Totenbeschwörung? Schon bald werden wir uns wieder treffen und dann seid Ihr alle tot und zwar schmerzhaft und für immer!"
+msgstr ""
+
+msgid "Da fährt er hin. Leider wird er tatsächlich wiederkommen. Ihr solltet euch nun um eure Rache kümmern."
+msgstr ""
+
+msgid "Aus, aus und vorbei! Ade, geliebte Sumpfburg, ade meine Trollfreunde. Vielleicht habt ihr beim nächsten Mal mehr Glück."
+msgstr ""
+
+msgid "Zeit ist vorbei. Ihr wurdet besiegt."
+msgstr ""
+
+msgid "Episode 6: Rückeroberung"
+msgstr ""
+
+msgid "Disgusburg"
+msgstr ""
+
+msgid "Governor Rudolt"
+msgstr ""
+
+msgid "Ally"
+msgstr ""
+
+msgid "todo: Story zwischen Szenario 5 und Szenario 6"
+msgstr ""
+
+msgid "<b>URUKNORG ist dein Freund</b>"
+msgstr ""
+
+msgid "<b>NEKROMANT ist dein Freund</b>"
+msgstr ""
+
+msgid "Sir Urmgard"
+msgstr ""
+
+msgid "Ritter Armbard"
+msgstr ""
+
+msgid "Unsere Heimat. Möge sie in Bälde erneut der Herrschaft von Tedder unterliegen!"
+msgstr ""
+
+msgid "Aahhhh, ein paar Menschenkörper scheinen eure Heimat besiedelt zu haben. Ihre Wärme ruft ab einer gewissen Nähe doch immer wieder abwechslungsreiche Gefühle hervor!"
+msgstr ""
+
+msgid "Na, was auch immer. Zerschmettern wir ein paar Menschenschädel."
+msgstr ""
+
+msgid "Eh, schau mal! Dort befestigen Untote ihre Lager auf unser'm Land."
+msgstr ""
+
+msgid "Diese verkümmerten Lebenden mit ihren Reitern. Keiner wird mich mehr aufhalten. Die Elfen konnten es nicht. Sogar die berittenen Abgesandten des Ordens der menschlichen Magier haben versagt."
+msgstr ""
+
+msgid "Das sind keine Trolle, mkay? Viel zu bleich. Und warum sollten sie von Süden kommen?"
+msgstr ""
+
+msgid "Da lass' ich mein Weib doch besser die nächste Wache schieben, viel zu dicht. Viel zu dichter Nebel, mein' ich. Lass uns Governor Rudolt bescheid geb'n, nja."
+msgstr ""
+
+msgid "*räusper* Seid gegrüßt, Rudolt. Wir hab'n da so südöstlich 'n paar Untote gesehen. Wollten nur ma' bescheid geben."
+msgstr ""
+
+msgid "Dann tut mal die Glocken läuten!"
+msgstr ""
+
+msgid "Besiege Governeur Rudolt und erobere die Berge zurück"
+msgstr ""
+
+msgid "Envoy"
+msgstr ""
+
+msgid "Zu euren Diensten, Governeur Rudolt!"
+msgstr ""
+
+msgid "Benachrichtigt Disgusburg, dass ein paar beschränkte Untote versuchen unsere Feste zu übernehmen!"
+msgstr ""
+
+msgid "Sollte der Envoy von den Menschen die südlich gelegene Stadt Disgusburg erreichen, wird nach kürzester Zeit Verstärkung von Disgusburg kommen. Töte den Envoy, bevor er Disgusburg erreicht, um eine Übermacht der Menschen zu verhindern."
+msgstr ""
+
+msgid "Beeilt euch! Die Armeen der Untoten sind größer als wir erwarteten!"
+msgstr ""
+
+msgid "Verstärkung wird kommen!"
+msgstr ""
+
+msgid "Ich konnte bei General Disgustus um ein paar Truppen erbeten - Es werden noch weitere folgen!"
+msgstr ""
+
+msgid "Damit wären wir zuhause!"
+msgstr ""
+
+msgid "Held gestorben. Verloren!"
+msgstr ""
+
+msgid "Zeit ist vorbei. Verloren!"
+msgstr ""
+
+msgid "Episode 7: Rache"
+msgstr ""
+
+msgid "Todo"
+msgstr ""
+
+msgid "Exiled Dwarf"
+msgstr ""
+
+msgid "todo"
+msgstr ""
+
+msgid "Battle Axe"
+msgstr ""
+
+msgid "Fist"
+msgstr ""
+
+msgid "Insane Dark Sorcerer"
+msgstr ""
+
+msgid "Cudgel"
+msgstr ""
+
+msgid "Chastising"
+msgstr ""
+
+msgid "Insane Necromancer"
+msgstr ""
+
+msgid "Naughty Girl"
+msgstr ""
+
+msgid "Dagger"
+msgstr ""
+
+msgid "Toxic Knives"
+msgstr ""
+
+msgid "Renegade"
+msgstr ""
+
+msgid "Club"
+msgstr ""
+
+msgid "Sling"
+msgstr ""
+
+msgid "Axe"
+msgstr ""
+
+msgid "Mace"
+msgstr ""
+
+msgid "Troll Warrior"
+msgstr ""
+
+msgid "Troll Wraith"
+msgstr ""
+
+msgid "Touch"
+msgstr ""
+
+msgid "Undead Troll"
+msgstr ""
+
+msgid "Once, Tedder ruled the life of the most trolls living in the Mountains Of Peril. Since the hatefully risen Disgustus IV. deceived his troll tribe and annihilated them entirely, he strolls focused on revenge under the living as an undead."
+msgstr ""
+
+msgid "Bone Knight"
+msgstr ""
+
+msgid "Bone Rider"
+msgstr ""
+
+msgid "Faulty Skeleton"
+msgstr ""
+
+msgid "Death Shooter"
+msgstr ""
+
+msgid "Destroyer of hope and annihilator of the most powerful living beings in Wesnoth, this skeletal marksman finalizes anyone's life."
+msgstr ""
+
+msgid "Sharp Shot"
+msgstr ""
+
+msgid "Skeleton Sniper"
+msgstr ""
+
+msgid "Summoned by the obscurest necromancers known in Wesnoth, these skeletons spread fear, dreading any creature they face."
+msgstr ""
+
+msgid "Bone Burst"
+msgstr ""
+
+msgid "Soul Eradication"
+msgstr ""
+
+msgid "Trolle"
+msgstr ""
+
+msgid "Untote"
+msgstr ""
+
+msgid "Hail"
+msgstr ""
+
+msgid ""
+"This attack is fired inaccurate but affects a comparatively large area that makes its shots always hit. The salves are fired one by one, giving the enemy no opportunity to strike back the bombardment in time. On the downside, caused by the looseness of taking aim, this offense will vary from 60% up to 120% of the base damage every time it hits."
+""
+"Active on offense only."
+"Chance to hit 100%, but damage varying."
+msgstr ""
+
+msgid " Using a hailing attack offensively will give the enemy no opportunity to strike back the bombardment in time. On the downside, caused by the looseness of taking aim, this offenses damage will vary every time it hits."
+msgstr ""
+
+msgid "Tedder"
+msgstr ""
+
+msgid "Ugoki"
+msgstr ""
+
+msgid "Uruknorg der Gewaltige"
+msgstr ""
+
+msgid "The Revenge"
+msgstr ""
+
+msgid "TR"
+msgstr ""
+
+msgid "Storymode"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Nightmare"
+msgstr ""
+
+msgid ""
+"Perishing iron gores my breast."
+"My heart arduously brings its last breath to an end."
+"Should my existence fall into oblivion in this way?"
+"It has to be stopped."
+"The revenge shall be mine."
+""
+"(21 scenarios - 0 playable - 21 in development)"
+msgstr ""

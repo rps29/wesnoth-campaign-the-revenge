@@ -4,7 +4,6 @@
  * `php cli/execute <command> <args>`
  *
  * This file executes your desired command
- * For easier usage I left out the .php file extension
  */
 
 error_reporting(E_ALL);
@@ -30,7 +29,13 @@ $injector = new \Source\DependencyInjector();
 function inject(string $class)
 {
     global $injector;
-    return $injector->inject($class);
+    try {
+        return $injector->inject($class);
+    } catch (\Exception $e) {
+        echo $e->getMessage();
+        exit();
+    }
+
 }
 
 try {
