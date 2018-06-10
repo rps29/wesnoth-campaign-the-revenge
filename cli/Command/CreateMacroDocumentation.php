@@ -4,8 +4,10 @@ namespace Command;
 use Source\AbstractCommand;
 
 /**
- * todo @papa:
- * Den gesamten `cli/` Ordner refactoren !
+ * todo Update the macro documentation generation...
+ *
+ * Do not use the weird @doc tags for introducing a macro comment!
+ * Instead use, like for core macro documentations, the first comment lines inside the preprocessor #define
  */
 class CreateMacroDocumentation extends AbstractCommand
 {

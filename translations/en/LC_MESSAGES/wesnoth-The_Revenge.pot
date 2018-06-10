@@ -42,6 +42,12 @@ msgid ""
 "(21 scenarios - 0 playable - 21 in development)"
 msgstr ""
 
+msgid "Blubb todo campaign design and contributors"
+msgstr ""
+
+msgid "blubb"
+msgstr ""
+
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/00_testing.cfg
 
 msgid "Unit Testing Environment"
@@ -418,6 +424,9 @@ msgstr ""
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/03B_wilderness.cfg
 
+msgid "In development"
+msgstr ""
+
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/04A_elves_war.cfg
 
 msgid "Episode 4: Der Elfenkrieg"
@@ -516,7 +525,7 @@ msgstr ""
 msgid "Zu lange herumgetrödelt, Saubande, blöde."
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/04B_gebirgsmarsch.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/04B_mountain_hike.cfg
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/05A_taking_sides.cfg
 
@@ -640,7 +649,7 @@ msgstr ""
 msgid "Zeit ist vorbei. Ihr wurdet besiegt."
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/05B_friend_or_enemy.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/05B_friend_or_foe.cfg
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06Aa_reconquest.cfg
 
@@ -733,7 +742,7 @@ msgstr ""
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06Ab_annihilation.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06B_zwergische_gesellschaft.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06B_dwarvish_stranger.cfg
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07Aa_revenge.cfg
 
@@ -743,15 +752,15 @@ msgstr ""
 msgid "Todo"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07Ab_kriegsrat.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07Ab_war_council.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07B_gefangene_der_zwerge.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07B_prisoned.cfg
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/08Ab_revenge.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/08B_waffenkammer.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/08B_armory.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/09B_schlachtplan.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/09B_battle_plan.cfg
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/10B_canalization.cfg
 
@@ -759,18 +768,13 @@ msgstr ""
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/12B_revenge.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/13B_ewige_stille.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/13B_eternal_silence.cfg
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/epilogue.cfg
-
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/_units.cfg
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/dwarves/Exiled_Dwarf.cfg
 
 msgid "Exiled Dwarf"
-msgstr ""
-
-msgid "todo"
 msgstr ""
 
 msgid "Battle Axe"
@@ -815,6 +819,9 @@ msgstr ""
 msgid "Renegade"
 msgstr ""
 
+msgid "todo"
+msgstr ""
+
 msgid "Club"
 msgstr ""
 
@@ -833,9 +840,30 @@ msgstr ""
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Renegade_Unarmed.cfg
 
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Rogue.cfg
+
+msgid "Rogue"
+msgstr ""
+
+msgid "Throwing Knives"
+msgstr ""
+
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Thief.cfg
+
+msgid "Thief"
+msgstr ""
+
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Resurrected_Troll.cfg
+
+msgid "Resurrected Troll"
+msgstr ""
+
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Troll_Warrior_Unarmed.cfg
 
 msgid "Troll Warrior"
+msgstr ""
+
+msgid "Knockout"
 msgstr ""
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Troll_Wraith.cfg
@@ -851,7 +879,46 @@ msgstr ""
 msgid "Undead Troll"
 msgstr ""
 
-msgid "Once, Tedder ruled the life of the most trolls living in the Mountains Of Peril. Since the hatefully risen Disgustus IV. deceived his troll tribe and annihilated them entirely, he strolls focused on revenge under the living as an undead."
+msgid "Become a deadly fighter in melee (excludes ranged advancements)"
+msgstr ""
+
+msgid "Even more deadly with the fist"
+msgstr ""
+
+msgid "Fist attacks faster"
+msgstr ""
+
+msgid "Use the power of the death and eradicate the enemies souls (exclude melee advancements)"
+msgstr ""
+
+msgid "Soul Eradication"
+msgstr ""
+
+msgid "Stronger in eradicating enemies souls"
+msgstr ""
+
+msgid "Faster soul eradication"
+msgstr ""
+
+msgid "Move faster (excludes regeneration advancements)"
+msgstr ""
+
+msgid "Move insanely fast"
+msgstr ""
+
+msgid "Acquire the initially regeneration of the trolls (excludes movement advancements)"
+msgstr ""
+
+msgid "Regeneration"
+msgstr ""
+
+msgid "The unit will heal itself 3 HP per turn. Can't remove poison."
+msgstr ""
+
+msgid "Improve regeneration"
+msgstr ""
+
+msgid "The unit will heal itself 6 HP per turn. Can't remove poison."
 msgstr ""
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Bone_Knight.cfg
@@ -876,9 +943,6 @@ msgstr ""
 msgid "Death Shooter"
 msgstr ""
 
-msgid "Destroyer of hope and annihilator of the most powerful living beings in Wesnoth, this skeletal marksman finalizes anyone's life."
-msgstr ""
-
 msgid "Sharp Shot"
 msgstr ""
 
@@ -887,18 +951,50 @@ msgstr ""
 msgid "Skeleton Sniper"
 msgstr ""
 
-msgid "Summoned by the obscurest necromancers known in Wesnoth, these skeletons spread fear, dreading any creature they face."
-msgstr ""
-
 msgid "Bone Burst"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/attacks.cfg
-
-msgid "Soul Eradication"
-msgstr ""
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/abilities.cfg
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/bigmap.cfg
+
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/descriptions.cfg
+
+msgid "Once, Tedder ruled the life of the most trolls living in the Mountains Of Peril. Since the hatefully risen Disgustus IV. deceived his troll tribe and annihilated them entirely, he strolls focused on revenge under the living as an undead."
+msgstr ""
+
+msgid "More deadly and smelling even worse than the proceeding resurrected troll. Once, Tedder ruled the life of the most trolls living in the Mountains Of Peril. Since the hatefully risen Disgustus IV. deceived his troll tribe and annihilated them entirely, he strolls focused on revenge under the living as an undead."
+msgstr ""
+
+msgid "Madness, craziness and folly left aside - This sorcerer has risen to somewhat horribly insanity in addition to a disease in his brain. Living and even undead creatures are encouraged to avoid encountering this individuality and warned about his probably contagious craziness."
+msgstr ""
+
+msgid "In contrast to other outlaws, this outlaw girl has not risen by proving any sort of achievements in combat. The only reason to allow this fellow to accompany you are the skinny hands and overall tiny anatomy, which is going to help you in several aspects. Actually, there is only one aspect known so far: Escape from a prison or anything similar."
+msgstr ""
+
+msgid "Exiled by the ruler Dulagan of the dwarves in the Mountains Of Peril. Sorrowful and lonely roaming, Dralgur met and joined Tedder with his odd collaboration of outlaws, undead and meaningwhile a dwarf too, himself."
+msgstr ""
+
+msgid "Summoned by the obscurest necromancers known in Wesnoth, these skeletons spread fear, dreading any creature they face."
+msgstr ""
+
+msgid "Destroyer of hope and annihilator of the most powerful living beings in Wesnoth, this skeletal marksman finalizes anyone's life."
+msgstr ""
+
+msgid "After death, the former living beings soul stays in the empire of dead, waiting for salvation. Necromancers use the dark forces in order to summon those souls back to life. Unfortunately, some amateur pretended to be better than he actually was, resulting in these faulty summoned skeleton retards."
+msgstr ""
+
+msgid "Trolls typically neither need nor prefer to use any proper armament in combat, as large 'sticks and stones' serve them all too well. However, the dwarves of the Mountains Of Peril have prisoned a troll with such an incredibly large metallic war hammer and locked it away in their underground gunnery. Anyway, the troll is still an indubitable risk in the rusty jails."
+msgstr ""
+
+msgid "Once great warriors thundering across the plains, these mounted riders atop their skeletal horses were raised from the grave by unholy magic to spread fear and destruction."
+msgstr ""
+
+msgid "Knockout the enemy, making it unconscious and not being able to do anything. Active on offense only."
+msgstr ""
+
+msgid " Knockout the enemy, making it unconscious and not being able to do anything. Active on offense only."
+msgstr ""
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/macros.cfg
 
@@ -926,6 +1022,13 @@ msgstr ""
 
 msgid " Using a hailing attack offensively will give the enemy no opportunity to strike back the bombardment in time. On the downside, caused by the looseness of taking aim, this offenses damage will vary every time it hits."
 msgstr ""
+
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/terrain.cfg
+
+msgid "Spiderweb"
+msgstr ""
+
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/terrain_graphics.cfg
 
 # C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/units.cfg
 

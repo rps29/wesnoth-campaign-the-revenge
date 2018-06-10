@@ -14,7 +14,6 @@ class PotFileTranslations extends AbstractCommand
 
     private $paths = [
         'scenarios',
-        'units',
         'units/dwarves',
         'units/humans',
         'units/trolls',
@@ -150,6 +149,9 @@ msgstr ""
         foreach ($this->paths as $path) {
             $found = scandir(BASE . '/' . $path);
             foreach ($found as $file) {
+                if ($file === '.' || $file === '..') {
+                    continue;
+                }
                 $file = BASE . '/' . $path . '/'. $file;
                 if (is_file($file)) {
                     $files[] = $file;

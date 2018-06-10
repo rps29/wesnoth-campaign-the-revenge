@@ -24,7 +24,13 @@ class Run
         if (isset($this->commands[$command])) {
             // Run the desired command
             echo 'Running ' . $command . PHP_EOL . PHP_EOL;
-            $this->commands[$command]->run($argv);
+            try {
+                $this->commands[$command]->run($argv);
+            } catch (\Exception $e) {
+                echo $e->getMessage();
+                exit();
+            }
+
         } else {
             // List all available commands
             echo 'Command "' . $command . '" not found.' . PHP_EOL;

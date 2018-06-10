@@ -15,7 +15,7 @@
 
 **IMG** *PATH*
 
-- Include an image located at data/add-ons/The_Revenge/images/
+- Include an image located at 
 - PATH: The path trailing after images/*
 
 

@@ -10,14 +10,34 @@ class CreateMaps extends AbstractCommand
      * All corner coordinates for cutting the maps
      */
     const MAP_SPECS = [
-        1 => ['name' => '01_beginning', 'x1' => 50, 'y1' => 15, 'x2' => 84, 'y2' => 52],
-        // 2 => ['name' => '02_resurrection', 'x1' => 12, 'y1' => 0, 'x2' => 44, 'y2' => 32],
-        // Szenario 2 ist eine externe Map, die eine Höhle im Haaggebirge, nördlich des Randes der complete.map, darstellen soll
-        3 => ['name' => '03_undead_life', 'x1' => 0, 'y1' => 25, 'x2' => 42, 'y2' => 54],
-        4 => ['name' => '04_elves_war', 'x1' => 0, 'y1' => 40, 'x2' => 34, 'y2' => 74],
-        5 => ['name' => '05_taking_sides', 'x1' => 4, 'y1' => 32, 'x2' => 54, 'y2' => 64],
-        6 => ['name' => '06_reconquest', 'x1' => 40, 'y1' => 12, 'x2' => 82, 'y2' => 43],
-        // 07 identical with complete.map (at the moment!)
+        ['name' => '01_beginning', 'x1' => 106, 'y1' => 80, 'x2' => 130, 'y2' => 116],
+        ['name' => '02_resurrection', 'x1' => 10, 'y1' => 63, 'x2' => 48, 'y2' => 100],
+        // Story A
+        ['name' => '03A_undead_life', 'x1' => 0, 'y1' => 96, 'x2' => 42, 'y2' => 155],
+        ['name' => '04A_elves_war', 'x1' => 0, 'y1' => 140, 'x2' => 36, 'y2' => 176],
+        ['name' => '05A_taking_sides', 'x1' => 4, 'y1' => 142, 'x2' => 54, 'y2' => 163],
+        // Story Aa
+        ['name' => '06Aa_reconquest', 'x1' => 100, 'y1' => 80, 'x2' => 130, 'y2' => 110],
+        ['name' => '07Aa_revenge', 'x1' => 72, 'y1' => 74, 'x2' => 136, 'y2' => 126],
+        // Story Ab
+        ['name' => '06Ab_annihilation', 'x1' => 92, 'y1' => 162, 'x2' => 144, 'y2' => 189],
+        ['name' => '07Ab_war_council', 'x1' => 164, 'y1' => 178, 'x2' => 200, 'y2' => 200],
+        ['name' => '08Ab_revenge', 'x1' => 60, 'y1' => 150, 'x2' => 132, 'y2' => 172],
+        // Story B
+        ['name' => '03B_wilderness', 'x1' => 28, 'y1' => 96, 'x2' => 112, 'y2' => 109],
+        ['name' => '04B_mountain_hike', 'x1' => 66, 'y1' => 50, 'x2' => 110, 'y2' => 109],
+        ['name' => '05B_friend_or_foe', 'x1' => 74, 'y1' => 33, 'x2' => 104, 'y2' => 52],
+        ['name' => '06B_dwarvish_stranger', 'x1' => 100, 'y1' => 1, 'x2' => 124, 'y2' => 31],
+        // 07B_prisoned ist eine externe Map!
+        // ['name' => '07B_prisoned', 'x1' => 102, 'y1' => 1, 'x2' => 150, 'y2' => 30],
+        // 08B_armory ist eine externe Map!
+        // ['name' => '08B_armory', 'x1' => 102, 'y1' => 1, 'x2' => 150, 'y2' => 30],
+        ['name' => '09B_battle_plan', 'x1' => 136, 'y1' => 30, 'x2' => 186, 'y2' => 108],
+        // 10B_canalization ist eine externe Map!
+        // ['name' => '10B_canalization', 'x1' => 108, 'y1' => 98, 'x2' => 162, 'y2' => 142],
+        ['name' => '11B_bostim', 'x1' => 72, 'y1' => 110, 'x2' => 140, 'y2' => 158],
+        ['name' => '12B_revenge', 'x1' => 88, 'y1' => 123, 'x2' => 116, 'y2' => 144],
+        ['name' => '13B_eternal_silence', 'x1' => 106, 'y1' => 122, 'x2' => 118, 'y2' => 130],
     ];
 
     public $command = 'maps';
@@ -66,7 +86,8 @@ class CreateMaps extends AbstractCommand
         $this->checkMapSpec($mapspec);
 
         // erste Zeilen einfach kopieren
-        $firstLinesToCopy = 3;
+        // Seit 1.14 werden die ersten 3 Zeilen nicht mehr benötigt! WICHTIG!
+        $firstLinesToCopy = 0;
         $newLines = array_slice($completeMap, 0, $firstLinesToCopy);
 
         // gewünschte Zeilen und Spalten der alten Map hinzufügen
@@ -97,7 +118,7 @@ class CreateMaps extends AbstractCommand
             throw new \Exception('x1 ist ungerade: '.$mapspec['x1']);
         }
         foreach (['x1','x2','y1','y2'] as $index) {
-            if ($mapspec[$index] > 84) {
+            if ($mapspec[$index] > 200) {
                 throw new \Exception($index.' > 84: '.$mapspec[$index]);
             }
         }
