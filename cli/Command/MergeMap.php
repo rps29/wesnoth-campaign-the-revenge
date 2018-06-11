@@ -13,7 +13,7 @@ class MergeMap extends AbstractCommand
     public $help = 'Merge one specified map ID into the `maps/complete.map`.';
 
     /**
-     * todo This command merges the given maps into the complete.map
+     * This command merges the given maps into the complete.map
      * This allows editing a single map and merging it into the complete.map
      * The cause for this idea is the tiredness of lags when editing the big 200x200 complete.map
      */
