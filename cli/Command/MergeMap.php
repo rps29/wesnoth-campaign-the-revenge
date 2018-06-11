@@ -6,15 +6,126 @@ use Source\AbstractCommand;
 class MergeMap extends AbstractCommand
 {
 
-    public $command = 'pot-translations';
+    const COMPLETE_MAP = BASE . '/maps/complete.map';
 
-    public $help = 'Generate the `translations/en/LC_MESSAGES/wesnoth-The_Revenge.pot` file.';
+    public $command = 'map-merge';
 
+    public $help = 'Merge one specified map ID into the `maps/complete.map`.';
+
+    /**
+     * todo This command merges the given maps into the complete.map
+     * This allows editing a single map and merging it into the complete.map
+     * The cause for this idea is the tiredness of lags when editing the big 200x200 complete.map
+     */
     public function run(array $args)
     {
-        // todo This command merges the given maps into the complete.map
-        // This allows editing a single map and merging it into the complete.map
-        // The cause for this idea is the tiredness of lags when editing the big 200x200 complete.map
+        $maps = $this->getMapsToMerge($args);
+        if ($this->validateMaps($maps)) {
+            $this->mergeAll($maps);
+        } else {
+            $this->writeln('Failed to merge your desired maps.');
+            exit();
+        }
+    }
+
+    private function mergeAll($maps)
+    {
+        foreach ($maps as $mapSpec) {
+            $file = BASE . '/maps/' . $mapSpec['name'] . '.map';
+            $completeMapFile = self::COMPLETE_MAP;
+
+            // Generate array of complete.map
+            $complete = file($completeMapFile);
+            $completeCodes = [];
+            foreach ($complete as $completeLine) {
+                $completeLineCodes = explode(', ', $completeLine);
+                $completeCodes[] = $completeLineCodes;
+            }
+
+            // Replace the codes in complete.map
+            $map = file($file);
+            foreach ($map as $line => $lineStr) {
+                $line += $mapSpec['y1'];
+                $newCodes = explode(', ', $lineStr);
+                foreach ($newCodes as $row => $code) {
+                    // Set proper keys for merge
+                    $row += $mapSpec['x1'];
+                    // Merge
+                    $completeCodes[$line][$row] = trim($code);
+                }
+            }
+
+            $completeLines = [];
+            // Generate map string
+            foreach ($completeCodes as $lineCodes) {
+                $completeLines[] = implode(', ', $lineCodes);
+            }
+
+            $this->writeln('Merging ' . $file . ' with ' . $completeMapFile);
+            file_put_contents($completeMapFile, $completeLines);
+        }
+    }
+
+    /**
+     * Validate map files exist and map size fits the size defined at CreateMaps::MAP_SPECS
+     */
+    private function validateMaps(array $maps): bool
+    {
+        foreach ($maps as $mapSpec) {
+            $failedMsg = 'Map invalid! Please ensure that "' . $mapSpec['name'] . '" is sized ' . ($mapSpec['x2'] - $mapSpec['x1']) . ' x ' . ($mapSpec['y2'] - $mapSpec['y1']) . ' hexes!';
+            $file = BASE . '/maps/' . $mapSpec['name'] . '.map';
+            $complete = self::COMPLETE_MAP;
+
+            // Files must exist!
+            if (!is_file($file)) {
+                $this->writeln('Map not found: ' . $file);
+                return false;
+            } elseif (!is_file($complete)) {
+                $this->writeln('Map not found: ' . $complete);
+                return false;
+            }
+
+            // Ensure the map has correct size
+            $map = file($file);
+            foreach ($map as $line) {
+                $newCodes = explode(', ', $line);
+                // Width
+                if ($mapSpec['x2'] - $mapSpec['x1'] !== count($newCodes)) {
+                    $this->writeln($failedMsg);
+                    return false;
+                }
+                // Height
+                if ($mapSpec['y2'] - $mapSpec['y1'] !== count($map)) {
+                    $this->writeln($failedMsg);
+                        return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    /**
+     * Retrieve all valid maps to be merged - Referencing to CreateMaps::MAP_SPECS for map specifications
+     */
+    private function getMapsToMerge(array $args): array
+    {
+        if (!$args) {
+            $this->writeln('No arguments given.');
+            exit();
+        }
+        $mapsToMerge = [];
+        // Extract the map names / ids
+        $mapIds = array_column(CreateMaps::MAP_SPECS, 'name');
+        foreach ($args as $map) {
+            $key = array_search($map, $mapIds, true);
+            if ($key === false) {
+                $this->writeln('Map ' . $map . ' is no valid map ID!');
+            } else {
+                // Validated, add map
+                $mapsToMerge[] = CreateMaps::MAP_SPECS[$key];
+            }
+        }
+        return $mapsToMerge;
     }
 
 }
