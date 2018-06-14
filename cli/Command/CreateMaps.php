@@ -40,9 +40,9 @@ class CreateMaps extends AbstractCommand
         ['name' => '13B_eternal_silence', 'x1' => 106, 'y1' => 122, 'x2' => 118, 'y2' => 130],
     ];
 
-    public $command = 'maps';
+    public $command = 'map-split';
 
-    public $help = 'Cut the `maps/complete.map` into the different scenario (01 - 07) maps.';
+    public $help = 'Cut the `maps/complete.map` into the different scenario maps.';
 
     public function run(array $args)
     {
