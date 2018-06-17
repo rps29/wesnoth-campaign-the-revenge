@@ -6,11 +6,16 @@ use Source\AbstractCommand;
 class MergeMap extends AbstractCommand
 {
 
-    const COMPLETE_MAP = BASE . '/maps/complete.map';
+    const COMPLETE_MAP = BASE . '/maps/test.map';
 
     public $command = 'map-merge';
 
     public $help = 'Merge one specified map ID into the `maps/complete.map`.';
+
+    /**
+     * Whether to update all other maps after having merged the desired map into complete.map
+     */
+    private $update = false;
 
     /**
      * This command merges the given maps into the complete.map
@@ -22,9 +27,17 @@ class MergeMap extends AbstractCommand
         $maps = $this->getMapsToMerge($args);
         if ($this->validateMaps($maps)) {
             $this->mergeAll($maps);
+            $this->update();
         } else {
             $this->writeln('Failed to merge your desired maps.');
             exit();
+        }
+    }
+
+    private function update()
+    {
+        if (!$this->update) {
+            $this->writeln('No update parameter given. Update each single map by passing "-u" as parameter.');
         }
     }
 
@@ -113,11 +126,15 @@ class MergeMap extends AbstractCommand
             $this->writeln('No arguments given.');
             exit();
         }
-        $mapsToMerge = [];
         if ($args[0] === '-a' || $args[0] === '--all') {
             // Merge all maps into complete.map one by one
             return CreateMaps::MAP_SPECS;
         }
+        if ($key = array_search('-u', $args, true) || $key = array_search('--update', $args, true)) {
+            $this->update = true;
+            unset($args[$key]);
+        }
+        $mapsToMerge = [];
         // Extract the map names / ids
         $mapIds = array_column(CreateMaps::MAP_SPECS, 'name');
         foreach ($args as $map) {
