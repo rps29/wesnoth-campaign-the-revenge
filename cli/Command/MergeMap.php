@@ -61,7 +61,7 @@ class MergeMap extends AbstractCommand
                 $completeLines[] = implode(', ', $lineCodes);
             }
 
-            $this->writeln('Merging ' . $file . ' with ' . $completeMapFile);
+            $this->writeln('Merging ' . $file . ' into complete.map');
             file_put_contents($completeMapFile, $completeLines);
         }
     }
@@ -114,6 +114,10 @@ class MergeMap extends AbstractCommand
             exit();
         }
         $mapsToMerge = [];
+        if ($args[0] === '-a' || $args[0] === '--all') {
+            // Merge all maps into complete.map one by one
+            return CreateMaps::MAP_SPECS;
+        }
         // Extract the map names / ids
         $mapIds = array_column(CreateMaps::MAP_SPECS, 'name');
         foreach ($args as $map) {
