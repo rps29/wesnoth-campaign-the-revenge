@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 if (version_compare(PHP_VERSION, '7.0.0', '<')) {
-    echo 'Could not start The Revenge CLI. Your PHP version must be 7 or higher. Your current version:' . PHP_VERSION . PHP_EOL . PHP_EOL;
+    echo 'Could not start Eternal Silence CLI. Your PHP version must be 7 or higher. Your current version: ' . PHP_VERSION . PHP_EOL . PHP_EOL;
     exit();
 }
 

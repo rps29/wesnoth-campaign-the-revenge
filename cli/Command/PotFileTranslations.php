@@ -6,11 +6,11 @@ use Source\AbstractCommand;
 class PotFileTranslations extends AbstractCommand
 {
 
-    const POT_FILE = BASE . '/translations/en/LC_MESSAGES/wesnoth-The_Revenge.pot';
+    const POT_FILE = BASE . '/translations/en/LC_MESSAGES/wesnoth-Eternal_Silence.pot';
 
     public $command = 'pot-translations';
 
-    public $help = 'Generate the `translations/en/LC_MESSAGES/wesnoth-The_Revenge.pot` file.';
+    public $help = 'Generate the `translations/en/LC_MESSAGES/wesnoth-Eternal_Silence.pot` file.';
 
     private $paths = [
         'scenarios',
@@ -27,7 +27,7 @@ class PotFileTranslations extends AbstractCommand
 
     private $header = 'msgid ""
 msgstr ""
-"Project-Id-Version: The Revenge\n"
+"Project-Id-Version: Eternal Silence\n"
 "POT-Creation-Date: 2018-06-09 14:20+0200\n"
 "PO-Revision-Date: 2018-06-09 14:20+0200\n"
 "Last-Translator: \n"

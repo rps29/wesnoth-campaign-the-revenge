@@ -25,6 +25,7 @@ abstract class AbstractCommand
     public function writeln(string $message = '')
     {
         echo $message . PHP_EOL;
+        return $this;
     }
 
 }

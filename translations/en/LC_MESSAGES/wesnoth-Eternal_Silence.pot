@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: The Revenge\n"
+"Project-Id-Version: Eternal Silence\n"
 "POT-Creation-Date: 2018-06-09 14:20+0200\n"
 "PO-Revision-Date: 2018-06-09 14:20+0200\n"
 "Last-Translator: \n"
@@ -15,9 +15,9 @@ msgstr ""
 "X-Poedit-KeywordsList: _\n"
 
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/_main.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/_main.cfg
 
-msgid "The Revenge"
+msgid "Eternal Silence"
 msgstr ""
 
 msgid "TR"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "blubb"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/00_testing.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/00_testing.cfg
 
 msgid "Unit Testing Environment"
 msgstr ""
@@ -65,7 +65,7 @@ msgstr ""
 msgid "Test anything you want!"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/01_beginning.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/01_beginning.cfg
 
 msgid "Episode 1: Der Anfang"
 msgstr ""
@@ -208,7 +208,7 @@ msgstr ""
 msgid "...oder doch nicht?"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/02_resurrection.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/02_resurrection.cfg
 
 msgid "Episode 2: Auferstehung"
 msgstr ""
@@ -339,7 +339,7 @@ msgstr ""
 msgid "Time over!"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/03A_undead_life.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/03A_undead_life.cfg
 
 msgid "Episode 3: Untotes Leben"
 msgstr ""
@@ -422,12 +422,12 @@ msgstr ""
 msgid "Das war's. Aus und Ende."
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/03B_wilderness.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/03B_wilderness.cfg
 
 msgid "In development"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/04A_elves_war.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/04A_elves_war.cfg
 
 msgid "Episode 4: Der Elfenkrieg"
 msgstr ""
@@ -525,9 +525,9 @@ msgstr ""
 msgid "Zu lange herumgetrödelt, Saubande, blöde."
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/04B_mountain_hike.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/04B_mountain_hike.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/05A_taking_sides.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/05A_taking_sides.cfg
 
 msgid "Episode 5: Die Entscheidung"
 msgstr ""
@@ -649,9 +649,9 @@ msgstr ""
 msgid "Zeit ist vorbei. Ihr wurdet besiegt."
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/05B_friend_or_foe.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/05B_friend_or_foe.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06Aa_reconquest.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/06Aa_reconquest.cfg
 
 msgid "Episode 6: Rückeroberung"
 msgstr ""
@@ -740,11 +740,11 @@ msgstr ""
 msgid "Zeit ist vorbei. Verloren!"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06Ab_annihilation.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/06Ab_annihilation.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/06B_dwarvish_stranger.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/06B_dwarvish_stranger.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07Aa_revenge.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/07Aa_revenge.cfg
 
 msgid "Episode 7: Rache"
 msgstr ""
@@ -752,27 +752,27 @@ msgstr ""
 msgid "Todo"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07Ab_war_council.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/07Ab_war_council.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/07B_prisoned.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/07B_prisoned.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/08Ab_revenge.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/08Ab_revenge.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/08B_armory.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/08B_armory.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/09B_battle_plan.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/09B_battle_plan.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/10B_canalization.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/10B_canalization.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/11B_bostim.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/11B_bostim.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/12B_revenge.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/12B_revenge.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/13B_eternal_silence.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/13B_eternal_silence.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/scenarios/epilogue.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/scenarios/epilogue.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/dwarves/Exiled_Dwarf.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/dwarves/Exiled_Dwarf.cfg
 
 msgid "Exiled Dwarf"
 msgstr ""
@@ -780,12 +780,12 @@ msgstr ""
 msgid "Battle Axe"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/dwarves/Exiled_Dwarf_Unarmed.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/dwarves/Exiled_Dwarf_Unarmed.cfg
 
 msgid "Fist"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Insane_Dark_Sorcerer.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Insane_Dark_Sorcerer.cfg
 
 msgid "Insane Dark Sorcerer"
 msgstr ""
@@ -796,12 +796,12 @@ msgstr ""
 msgid "Chastising"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Insane_Necromancer.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Insane_Necromancer.cfg
 
 msgid "Insane Necromancer"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Naughty_Girl.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Naughty_Girl.cfg
 
 msgid "Naughty Girl"
 msgstr ""
@@ -812,9 +812,9 @@ msgstr ""
 msgid "Toxic Knives"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Naughty_Girl_Unarmed.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Naughty_Girl_Unarmed.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Renegade.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Renegade.cfg
 
 msgid "Renegade"
 msgstr ""
@@ -828,19 +828,19 @@ msgstr ""
 msgid "Sling"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Renegade_Axe.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Renegade_Axe.cfg
 
 msgid "Axe"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Renegade_Heavy.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Renegade_Heavy.cfg
 
 msgid "Mace"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Renegade_Unarmed.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Renegade_Unarmed.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Rogue.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Rogue.cfg
 
 msgid "Rogue"
 msgstr ""
@@ -848,17 +848,17 @@ msgstr ""
 msgid "Throwing Knives"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/humans/Thief.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/humans/Thief.cfg
 
 msgid "Thief"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Resurrected_Troll.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/trolls/Resurrected_Troll.cfg
 
 msgid "Resurrected Troll"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Troll_Warrior_Unarmed.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/trolls/Troll_Warrior_Unarmed.cfg
 
 msgid "Troll Warrior"
 msgstr ""
@@ -866,7 +866,7 @@ msgstr ""
 msgid "Knockout"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Troll_Wraith.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/trolls/Troll_Wraith.cfg
 
 msgid "Troll Wraith"
 msgstr ""
@@ -874,7 +874,7 @@ msgstr ""
 msgid "Touch"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/trolls/Undead_Troll.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/trolls/Undead_Troll.cfg
 
 msgid "Undead Troll"
 msgstr ""
@@ -921,24 +921,24 @@ msgstr ""
 msgid "The unit will heal itself 6 HP per turn. Can't remove poison."
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Bone_Knight.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/undead/Bone_Knight.cfg
 
 msgid "Bone Knight"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Bone_Rider.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/undead/Bone_Rider.cfg
 
 msgid "Bone Rider"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Faulty_Summoned.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/undead/Faulty_Summoned.cfg
 
 msgid "Faulty Skeleton"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Skeleton_Archer.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/undead/Skeleton_Archer.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Skeleton_Death_Shooter.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/undead/Skeleton_Death_Shooter.cfg
 
 msgid "Death Shooter"
 msgstr ""
@@ -946,7 +946,7 @@ msgstr ""
 msgid "Sharp Shot"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/units/undead/Skeleton_Sniper.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/units/undead/Skeleton_Sniper.cfg
 
 msgid "Skeleton Sniper"
 msgstr ""
@@ -954,11 +954,11 @@ msgstr ""
 msgid "Bone Burst"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/abilities.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/abilities.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/bigmap.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/bigmap.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/descriptions.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/descriptions.cfg
 
 msgid "Once, Tedder ruled the life of the most trolls living in the Mountains Of Peril. Since the hatefully risen Disgustus IV. deceived his troll tribe and annihilated them entirely, he strolls focused on revenge under the living as an undead."
 msgstr ""
@@ -996,11 +996,11 @@ msgstr ""
 msgid " Knockout the enemy, making it unconscious and not being able to do anything. Active on offense only."
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/macros.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/macros.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/missile-frames.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/missile-frames.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/sides.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/sides.cfg
 
 msgid "Trolle"
 msgstr ""
@@ -1008,7 +1008,7 @@ msgstr ""
 msgid "Untote"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/special-hail.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/special-hail.cfg
 
 msgid "Hail"
 msgstr ""
@@ -1023,14 +1023,14 @@ msgstr ""
 msgid " Using a hailing attack offensively will give the enemy no opportunity to strike back the bombardment in time. On the downside, caused by the looseness of taking aim, this offenses damage will vary every time it hits."
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/terrain.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/terrain.cfg
 
 msgid "Spiderweb"
 msgstr ""
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/terrain_graphics.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/terrain_graphics.cfg
 
-# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/The_Revenge/utils/units.cfg
+# C:/Users/rs/Documents/My Games/Wesnoth1.14/data/add-ons/Eternal_Silence/utils/units.cfg
 
 msgid "Tedder"
 msgstr ""

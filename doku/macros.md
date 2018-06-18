@@ -1,4 +1,4 @@
-# Macro documentation for The Revenge
+# Macro documentation for Eternal Silence
 
 ***This documentation is automatically generated. Manual edits to this file will be overridden!***
 
@@ -98,7 +98,7 @@ No documentation found.
 **SIDE_TEDDER_BEGINNING** *X Y*
 
 - Side specifications for scenario 1
-- This defines side specific attributes for the first scenario of the campaign The Revenge
+- This defines side specific attributes for the first scenario of the campaign Eternal Silence
 - X: The X coordinates Tedder will be created at
 - Y: The Y coordinates Tedder will be created at
 

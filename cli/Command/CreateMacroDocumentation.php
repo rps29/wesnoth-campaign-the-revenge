@@ -75,7 +75,7 @@ class CreateMacroDocumentation extends AbstractCommand
     private function writeDoc()
     {
         $docFile = BASE . '/doku/macros.md';
-        $this->append('# Macro documentation for The Revenge');
+        $this->append('# Macro documentation for Eternal Silence');
         $this->append('***This documentation is automatically generated. Manual edits to this file will be overridden!***');
         foreach ($this->docs as $macroFile => $macros) {
             $this->append('## From file ' . $macroFile);

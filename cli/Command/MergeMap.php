@@ -6,16 +6,24 @@ use Source\AbstractCommand;
 class MergeMap extends AbstractCommand
 {
 
-    const COMPLETE_MAP = BASE . '/maps/test.map';
+    const COMPLETE_MAP = BASE . '/maps/complete.map';
 
     public $command = 'map-merge';
 
     public $help = 'Merge one specified map ID into the `maps/complete.map`.';
 
+    private $createMaps;
+
     /**
      * Whether to update all other maps after having merged the desired map into complete.map
      */
     private $update = false;
+
+    public function __construct(
+        CreateMaps $createMaps
+    ) {
+        $this->createMaps = $createMaps;
+    }
 
     /**
      * This command merges the given maps into the complete.map
@@ -36,8 +44,12 @@ class MergeMap extends AbstractCommand
 
     private function update()
     {
-        if (!$this->update) {
-            $this->writeln('No update parameter given. Update each single map by passing "-u" as parameter.');
+        if ($this->update) {
+            $this->writeln();
+            $this->createMaps->run([]);
+            $this->writeln()->writeln('Updated all single maps out of the updated complete.map.');
+        } else {
+            $this->writeln('No update parameter given. Update each single map by passing "-u" or "--update" as parameter.');
         }
     }
 
