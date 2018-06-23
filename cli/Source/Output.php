@@ -7,17 +7,23 @@ class Output
     /**
      * Output is always displayed, even when --quiet is active
      */
-    const QUIET = 0;
+    const QUIET = 1;
 
     /**
      * Default output level
      */
-    const NORMAL = 1;
+    const NORMAL = 2;
 
     /**
      * Verbose information, displayed when --verbose is active
      */
-    const VERBOSE = 2;
+    const DEBUG = 3;
+
+    /**
+     * The current verbosity level for the run command
+     * @see Output::verbosityDisallowsOutput
+     */
+    public $verbosity = self::NORMAL;
 
     /**
      * Codes for colored console output
@@ -26,33 +32,37 @@ class Output
      * Example:
      *
      * \**
-     *  * Set your custom color tag
-     *  * $this->output class property is set in @see AbstractCommand::__construct
+     *  * $this->output @see AbstractCommand::__construct
      *  *\
      * public function whateverSetYourColorCode()
      * {
-     *     $this->output['custom_color_blue'] = '34'
-     *     $this->output->writeln('<custom_color_blue>This is a blue output.</custom_color_blue> Well done!');
+     *     $this->output['custom_color_blue'] = '0;34'
+     *     $this->output->writeln('<custom_color_blue>This is a blue string.</custom_color_blue> Well done!');
      * }
      */
     public $tags = [
         // Info output is colored green
-        'info' => '',
+        'info' => '0;32',
         // Debug output is colored yellow
-        'debug' => '',
+        'debug' => '1;33',
         // Error output is colored red
-        'error' => ''
+        'error' => '0;31'
     ];
 
     /**
-     *
+     * Output a message to the console
+     * The command will highlight all registered tags with their mapped colors
+     * @see Output::tags
+     * @see Output::parseMessage
      */
     public function writeln(string $message = '', $verbosity = self::NORMAL): self
     {
-        if (!$this->checkVerbosity($verbosity)) {
+        if ($this->verbosityDisallowsOutput($verbosity)) {
+            // The message should not be outputted in the current verbosity level
             return $this;
         }
 
+        // Replace tags, such as <info></info> with the mapped color attribute in $this->tags
         $message = $this->dissect($message);
 
         echo $message . PHP_EOL;
@@ -60,19 +70,30 @@ class Output
         return $this;
     }
 
-    public function info(string $message = '', $verbosity = self::NORMAL)
+    /**
+     * Wraps the message in <error></error> tags
+     * Verbosity defaults to QUIET
+     */
+    public function error(string $message = '', $verbosity = self::QUIET): self
+    {
+        return $this->writeln("<error>$message</error>", $verbosity);
+    }
+
+    /**
+     * Wraps the message in <info></info> tags
+     */
+    public function info(string $message = '', $verbosity = self::NORMAL): self
     {
         return $this->writeln("<info>$message</info>", $verbosity);
     }
 
-    public function debug(string $message = '', $verbosity = self::VERBOSE)
+    /**
+     * Wraps the message in <debug></debug>
+     * Verbosity defaults to DEBUG
+     */
+    public function debug(string $message = '', $verbosity = self::DEBUG): self
     {
         return $this->writeln("<debug>$message</debug>", $verbosity);
-    }
-
-    public function error(string $message = '', $verbosity = self::NORMAL)
-    {
-        return $this->writeln("<error>$message</error>", $verbosity);
     }
 
     /**
@@ -90,28 +111,151 @@ class Output
     /**
      * Check whether to display the current output or not
      */
-    private function checkVerbosity(int $verbosity)
+    private function verbosityDisallowsOutput(int $verbosity): bool
     {
+        if ($this->verbosity >= $verbosity) {
+            // Output
+            return false;
+        }
+        // Suppress message
         return true;
-        // todo Check verbosity, whether to output the message
     }
 
     /**
-     *
+     * Dissect / replace the lags like <info> with the related / mapped color string
+     * I don't give a fuck about mac os here
      */
-    private function dissect(string $str)
+    private function dissect(string $str): string
     {
-        // todo Dissect / replace the tags like <info> with the related color string, but for linux OS only!
         if (strtoupper(PHP_OS) === 'LINUX') {
-            // todo....
-            // On linux we can highlight text!
+            // Insert the mapped colors
+            $str = $this->parseMessage($str);
         } else {
-            // Unfortunately, on windows we can't
-            // I don't know about mac, but anyone using it should be assassinated anyway
-
+            // Unfortunately, on windows we can't display colored output, so we will simply remove all the tags
+            foreach ($this->tags as $tag => $color) {
+                $str = str_replace("<$tag>", '', $str);
+                $str = str_replace("</$tag>", '', $str);
+            }
         }
 
         return $str;
+    }
+
+    private function parseMessage(string $str)
+    {
+        $closingAppendage = '_closing';
+        $closingAppendageLength = strlen($closingAppendage);
+        $offset = 0;
+        $hierarchy = [];
+
+        while ($offset < strlen($str)) {
+            $matches = [];
+            $next = [
+                'tag' => '',
+                'position' => null
+            ];
+
+            // Get the positions of the next color tags
+            foreach ($this->tags as $tag => $color) {
+                // Opening tag
+                $pos = strpos($str, "<$tag>", $offset);
+                if ($pos !== false) {
+                    $matches[$tag] = $pos;
+                }
+
+                // Closing tag
+                $pos = strpos($str, "</$tag>", $offset);
+                if ($pos !== false) {
+                    $matches[$tag . $closingAppendage] = $pos;
+                }
+            }
+
+            if (!$matches) {
+                break;
+            }
+
+            // Get the nearest / next tag
+            foreach ($matches as $tag => $pos) {
+                if ($next['position'] > $pos || $next['position'] === null) {
+                    $next['position'] = $pos;
+                    $next['tag'] = $tag;
+
+                    $tagLength = strlen($tag);
+                    if ($tagLength >= $closingAppendageLength && substr($tag, $tagLength - $closingAppendageLength) === $closingAppendage) {
+                        // It's a closing tag
+                        $isClosing = true;
+                    } else {
+                        // It's an opening tag
+                        $isClosing = false;
+                    }
+                }
+            }
+
+            if (!$isClosing) {
+                // Only add opening tags to hierarchy
+                $hierarchy[] = $next['tag'];
+            }
+
+            if ($next['tag']) {
+                $closingAppendagePos = strlen($next['tag']) - $closingAppendageLength;
+                if (substr($next['tag'], $closingAppendagePos) === $closingAppendage) {
+                    // It's a closing tag we need to process
+                    $tag = substr($next['tag'], 0, $closingAppendagePos);
+
+                    if ($hierarchy) {
+                        // Need to pop twice, because I don't want the value of the most recent opening tag, i want the preceding of the most recent tag
+                        $previous = array_pop($hierarchy);
+
+                        if ($tag !== $previous) {
+                            // Opening and closing tags do not fit each other
+                            echo PHP_EOL . PHP_EOL . 'ERROR: Incorrect closing tag </' . $tag . '> for previously opened <' . $previous . '>' . PHP_EOL . PHP_EOL;
+                        }
+                    }
+
+                    if ($hierarchy) {
+                        // Get the color that needs to be inserted, the color that was used before
+                        $previous = array_pop($hierarchy);
+
+                        if (!$previous) {
+                            // Standard, no preceding unclosed tag found
+                            $color = '0';
+                        } else {
+                            $color = $this->tags[$previous];
+                        }
+                    } else {
+                        // Standard, from now on there's default coloring again
+                        $color = '0';
+                    }
+
+                    // Remove the closing appendage
+                    $colorStr = $this->getColor($color);
+                    $offset = $next['position'] + strlen($colorStr);
+                    $str = substr_replace(
+                        $str,
+                        $colorStr,
+                        $next['position'],
+                        strlen('</' . $tag . '>')
+                    );
+                } else {
+                    // Opening tag
+                    $colorStr = $this->getColor($this->tags[$next['tag']]);
+                    $offset = $next['position'] + strlen($colorStr);
+                    $str = substr_replace(
+                        $str,
+                        $colorStr,
+                        $next['position'],
+                        strlen('<' . $next['tag'] . '>')
+                    );
+                }
+            }
+        }
+
+        return $str;
+    }
+
+    private function getColor(string $add): string
+    {
+        return "\033[" .  $add . "m";
     }
 
 }

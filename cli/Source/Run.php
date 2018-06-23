@@ -32,31 +32,61 @@ class Run
     public function execute(array $argv)
     {
         $this->init();
-
         // First argument determines the called command
         $command = array_shift($argv);
-        var_dump($argv);
-        $this->output->writeln();
+        $argv = $this->setVerbosity($argv);
+        $this->output->nl();
 
         if (isset($this->commands[$command])) {
             // Run the desired command
-            $this->output->writeln('Running ' . $command)->writeln();
+            $this->output->debug('Running ' . $command)->nl();
             try {
-                $this->call($command, 'run', $argv);
+                $this->call($command, $argv);
             } catch (\Exception $e) {
                 $this->output->error($e->getMessage());
                 exit();
             }
         } else {
             // List all available commands
-            $this->output->error('Command "' . $command . '" not found.')->writeln();
-            $this->output->writeln('Here is a list of all available commands:')->writeln();
+            $this->output->error('Command "' . $command . '" not found.')->nl();
+            $this->output->writeln('Here is a list of all available commands:')->nl();
             foreach ($this->commands as $command => $instance) {
                 $this->output->writeln(str_pad("<info>$command</info>:", self::PAD_LENGTH_COMMANDS) . $instance->help);
             }
-            $this->output->writeln()->info('For detailed information, use <command> -h | --help');
+            $this->output->nl()->info('For detailed information, use <command> -h --help');
         }
         echo PHP_EOL;
+    }
+
+    /**
+     * Set the verbosity level for the run command
+     */
+    private function setVerbosity(array $args): array
+    {
+        $isSet = false;
+        $verbosityArguments = [
+            // Enable QUIET verbosity, disables all normal and debug messages
+            '-q' => Output::QUIET,
+            '--quiet' => Output::QUIET,
+            // Enable DEBUG verbosity, enable and output all messages
+            '-d' => Output::DEBUG,
+            '--debug' => Output::DEBUG,
+        ];
+
+        foreach ($verbosityArguments as $argument => $level) {
+            if (($key = array_search($argument, $args)) !== false) {
+                if ($isSet) {
+                    $this->output->error('Cannot set verbosity level both quiet and debug at once.');
+                    exit();
+                } else {
+                    $this->output->verbosity = $level;
+                    unset($args[$key]);
+                    $isSet = true;
+                }
+            }
+        }
+
+        return $args;
     }
 
     /**
@@ -73,8 +103,8 @@ class Run
                     $this->registerCommand($file);
                 } catch (\Exception $e) {
                     $this->output->error($e->getMessage());
+                    exit();
                 }
-
             }
         }
     }
@@ -92,14 +122,13 @@ class Run
 
     /**
      * Run the specific command
-     * In addition,
      */
-    private function call(string $command, $main, array $args)
+    private function call(string $command, array $args)
     {
         if (array_search('-h', $args) !== false || array_search('--help', $args) !== false) {
+            $this->output->info($command)->nl();
             foreach ($this->commands[$command]->expectedArgs as $arg => $info) {
                 // Display detailed help for the command
-                $this->output->info($command)->writeln();
                 $aliasesStr = '';
                 foreach ($info['aliases'] as $alias) {
                     $aliasesStr .= "  " . $alias;
@@ -108,13 +137,14 @@ class Run
                     str_pad($arg, self::PAD_LENGTH_ARGS)
                     . "\t" . str_pad($aliasesStr, self::PAD_LENGTH_ALIASES)
                     . "\t" . $info['description']
-                )->writeln();
+                )->nl();
             }
         } else {
-            if ($this->commands[$command]->$main($args)) {
-                $this->output->writeln()->info('Success')->writeln();
+            // Execute command
+            if ($this->commands[$command]->run($args)) {
+                $this->output->writeln()->info('Success')->nl();
             } else {
-                $this->output->writeln()->error('Failure')->writeln();
+                $this->output->writeln()->error('Failure')->nl();
             }
         }
     }

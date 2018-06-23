@@ -42,11 +42,11 @@ function inject(string $class)
 }
 
 try {
-    // todo asort?
     unset($argv[0]);
     /** @var \Source\Run $executor */
     $executor = inject('Source\Run');
     $executor->execute($argv);
 } catch (Exception $e) {
-
+    echo PHP_EOL . PHP_EOL . $e->getMessage() . PHP_EOL . PHP_EOL;
+    exit();
 }
