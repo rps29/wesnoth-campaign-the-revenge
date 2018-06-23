@@ -22,7 +22,7 @@ class CreateMaps extends AbstractCommand
         // Story Ab
         ['name' => '06Ab_annihilation', 'x1' => 92, 'y1' => 162, 'x2' => 144, 'y2' => 189],
         ['name' => '07Ab_war_council', 'x1' => 164, 'y1' => 178, 'x2' => 200, 'y2' => 200],
-        ['name' => '08Ab_revenge', 'x1' => 60, 'y1' => 150, 'x2' => 132, 'y2' => 172],
+        ['name' => '08Ab_revenge', 'x1' => 124, 'y1' => 138, 'x2' => 180, 'y2' => 160],
         // Story B
         ['name' => '03B_wilderness', 'x1' => 28, 'y1' => 96, 'x2' => 112, 'y2' => 109],
         ['name' => '04B_mountain_hike', 'x1' => 66, 'y1' => 50, 'x2' => 110, 'y2' => 109],

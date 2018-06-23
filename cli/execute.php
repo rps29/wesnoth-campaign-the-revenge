@@ -12,6 +12,9 @@ ini_set('display_errors', 1);
 if (version_compare(PHP_VERSION, '7.0.0', '<')) {
     echo 'Could not start Eternal Silence CLI. Your PHP version must be 7 or higher. Your current version: ' . PHP_VERSION . PHP_EOL . PHP_EOL;
     exit();
+} elseif (PHP_SAPI !== 'cli') {
+    echo 'Could not start Eternal Silence CLI. It must be run as CLI application.' . PHP_EOL . PHP_EOL;
+    exit();
 }
 
 define('BASE', str_replace('\\', '/', dirname(__DIR__)));
@@ -39,6 +42,8 @@ function inject(string $class)
 }
 
 try {
+    // todo asort?
+    unset($argv[0]);
     /** @var \Source\Run $executor */
     $executor = inject('Source\Run');
     $executor->execute($argv);

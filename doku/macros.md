@@ -2,22 +2,172 @@
 
 ***This documentation is automatically generated. Manual edits to this file will be overridden!***
 
-## From file attacks.cfg
+## From file abilities.cfg
 
-**ATTACK_SOUL_ERADICATION** *DAMAGE NUMBER*
+**WEAPON_SPECIAL_KNOCKOUT**
+No documentation found.
 
-- [attack] for the "soul eradication"
-- DAMAGE: The damage for [attack]
-- NUMBER: The number for [attack]
+**WEAPON_SPECIAL_FREEZE**
+No documentation found.
 
+**EVENT_FREEZE**
+No documentation found.
+
+**ABILITY_RESURRECT**
+No documentation found.
+
+**EVENT_RESURRECT**
+No documentation found.
+
+**RESURRECT_SELECTION_UNIT** *TYPE COST LABEL IMAGE*
+No documentation found.
+
+**MENU_ITEM_RESURRECT**
+No documentation found.
+
+**ABILITY_DEVOUR**
+No documentation found.
+
+**DEVOUR_SELECTION_UNIT** *INDEX*
+No documentation found.
+
+**MENU_ITEM_DEVOUR**
+No documentation found.
+
+## From file bigmap.cfg
+
+**BIGMAP**
+
+- This macro is copied from Son Of The Black Eye - utils/bigmap.cfg
+
+
+**JOURNEY** *X Y*
+
+- This macro is copied from Son Of The Black Eye - utils/bigmap.cfg
+
+
+## From file characters.cfg
+
+**UNIT_TEDDER** *X Y*
+No documentation found.
+
+**UNIT_UGOKI** *X Y*
+No documentation found.
+
+**UNIT_NEKROMANT** *X Y*
+No documentation found.
+
+**UNIT_GRÄFRAT** *X Y*
+No documentation found.
+
+**UNIT_KIKI** *X Y*
+No documentation found.
+
+**UNIT_DRALGUR** *X Y*
+No documentation found.
+
+**UNIT_KRONK** *X Y*
+No documentation found.
+
+**UNIT_URUKNORG** *X Y*
+No documentation found.
+
+**UNIT_DISGUSTUS** *X Y*
+No documentation found.
+
+**UNIT_VASOLIN** *X Y*
+No documentation found.
+
+**UNIT_STARCHER** *X Y*
+No documentation found.
+
+**UNIT_JAILER** *X Y*
+No documentation found.
+
+**UNIT_WICKBERT** *X Y*
+No documentation found.
+
+**UNIT_RUDOLT** *X Y*
+No documentation found.
+
+**UNIT_LANDOLIN** *X Y*
+No documentation found.
+
+## From file descriptions.cfg
+
+**UNIT_DESCRIPTION_TEDDER**
+No documentation found.
+
+**UNIT_DESCRIPTION_UNDEAD_TROLL**
+No documentation found.
+
+**UNIT_DESCRIPTION_INSANE_NECROMANCER**
+No documentation found.
+
+**UNIT_DESCRIPTION_NAUGHTY_GIRL**
+No documentation found.
+
+**UNIT_DESCRIPTION_EXILED_DWARF**
+No documentation found.
+
+**UNIT_DESCRIPTION_SKELETON_SNIPER**
+No documentation found.
+
+**UNIT_DESCRIPTION_SKELETON_DEATH_SHOOTER**
+No documentation found.
+
+**UNIT_DESCRIPTION_SKELETON_FAULTY_SUMMONED**
+No documentation found.
+
+**UNIT_DESCRIPTION_BONE_RIDER**
+No documentation found.
+
+**UNIT_DESCRIPTION_TROLL_WARRIOR**
+No documentation found.
+
+**UNIT_DESCRIPTION_THUG**
+No documentation found.
+
+**UNIT_DESCRIPTION_BANDIT**
+No documentation found.
+
+**UNIT_DESCRIPTION_HIGHWAYMAN**
+No documentation found.
+
+**UNIT_DESCRIPTION_FOOTPAD**
+No documentation found.
+
+**UNIT_DESCRIPTION_OUTLAW**
+No documentation found.
+
+**UNIT_DESCRIPTION_FUGITIVE**
+No documentation found.
+
+**WEAPON_SPECIAL_DESCRIPTION_KNOCKOUT**
+No documentation found.
+
+**SPECIAL_NOTES_KNOCKOUT**
+No documentation found.
+
+**WEAPON_SPECIAL_DESCRIPTION_FREEZE**
+No documentation found.
+
+**SPECIAL_NOTES_FREEZE**
+No documentation found.
+
+**ABILITY_DESCRIPTION_RESURRECT**
+No documentation found.
+
+**MENU_ITEM_DESCRIPTION_RESURRECT**
+No documentation found.
+
+**ABILITY_DESCRIPTION_DEVOUR**
+No documentation found.
+
+**MENU_ITEM_DESCRIPTION_DEVOUR**
+No documentation found.
 
 ## From file macros.cfg
-
-**IMG** *PATH*
-
-- Include an image located at 
-- PATH: The path trailing after images/*
-
 
 **UNIT_GUARDIAN** *SIDE TYPE X Y*
 
@@ -93,6 +243,12 @@ No documentation found.
 - Created for Nekromant only
 
 
+**MISSILE_FRAME_MADMAN_SLING_HIT** *OFFSET_X OFFSET_Y*
+No documentation found.
+
+**MISSILE_FRAME_MADMAN_SLING_MISS** *OFFSET_X OFFSET_Y*
+No documentation found.
+
 ## From file sides.cfg
 
 **SIDE_TEDDER_BEGINNING** *X Y*
@@ -122,29 +278,18 @@ No documentation found.
 - Same checks and initializations for the stored_chosen_enemy
 
 
-## From file units.cfg
+## From file special-hail.cfg
 
-**TEDDER**
+**WEAPON_SPECIAL_HAIL**
+No documentation found.
 
-- Defines unit attributes for Tedder that never change in this campaign
+**EVENT_HAIL**
+No documentation found.
 
+**SPECIAL_NOTES_HAIL**
+No documentation found.
 
-**UGOKI**
+## From file terrain.cfg
 
-- Defines unit attributes for Ugoki that never change in this campaign
-
-
-**UNIT_NEKROMANT** *SIDE X Y*
-
-- Creates the complete Nekromant unit with Side, X and Y parameters
-- Side: Nekromant will be created at this side - If you pass a different side than the previous side Nekromant has been played at before, it will create a new unit. In this case, use the old side and follow up with a {MODIFY_UNIT id=nekromant side <new side>}
-- X: The X coordinate Nekromant will be created at
-- Y: The Y coordinate Nekromant will be created at
-
-
-**UNIT_URUKNORG** *SIDE X Y*
-
-- Creates Uruknorg, the Orc leader as unit
-- Parameters same as for UNIT_NEKROMANT macro
-
+## From file terrain_graphics.cfg
 
