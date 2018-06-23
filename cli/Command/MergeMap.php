@@ -21,13 +21,14 @@ class MergeMap extends AbstractCommand
             'aliases' => [
                 '-a'
             ],
-            'description' => ''
+            'description' => 'Merge all existing maps specified in MAP_SPECS into complete.map one by one.',
         ],
         '--update' => [
             'aliases' => [
                 '-u'
             ],
-            'description' => ''
+            'description' => 'After your specified maps have been merged, the complete.map is split into all sub-maps in order to update the entire geography.' . PHP_EOL . PHP_EOL
+                             . '<info>Example usage:</info> php cli/execute.php map-merge -a -u -d',
         ]
     ];
 

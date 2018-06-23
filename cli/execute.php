@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 /**
- * `php cli/execute <command> <args>`
+ * `php cli/execute.php <command> <args>`
  *
  * This file executes your desired command
  */

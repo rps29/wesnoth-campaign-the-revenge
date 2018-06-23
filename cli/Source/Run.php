@@ -53,9 +53,11 @@ class Run
             foreach ($this->commands as $command => $instance) {
                 $this->output->writeln(str_pad("<info>$command</info>:", self::PAD_LENGTH_COMMANDS) . $instance->help);
             }
-            $this->output->nl()->info('For detailed information, use <command> -h --help');
+            $this->output->nl()->info('For detailed information, use <command> -h --help')
+                ->info('Enable debug mode with <command> -d --debug')
+                ->info('Disable all console output beside errors with <command> -q --quiet');
         }
-        echo PHP_EOL;
+        $this->output->nl();
     }
 
     /**
